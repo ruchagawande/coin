@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charSet="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link async="" defer="" rel="stylesheet" href="https://files.coinswitch.co/ui/asset-files/bootstrap.css" />
+  <meta name="generator" content="Gatsby 4.25.5" />
+  <meta data-react-helmet="true" name="description"
+    content="Made in India, for Indians - CoinSwitch is India’s simplest and most trusted Crypto app. Buy, sell, and trade-in Bitcoin and altcoins at the tap of a button" />
+  <meta data-react-helmet="true" name="robots" content="index, follow" />
+  <meta data-react-helmet="true" name="country" content="IN" />
+  <meta data-react-helmet="true" property="og:type" content="website" />
+  <meta data-react-helmet="true" property="og:url" content="https://coinswitch.co/" />
+  <meta data-react-helmet="true" property="og:title"
+    content="CoinSwitch: Buy Bitcoin and Cryptocurrency at India&#x27;s Leading Crypto Exchange" />
+  <meta data-react-helmet="true" property="og:description"
+    content="Made in India, for Indians - CoinSwitch is India’s simplest and most trusted Crypto app. Buy, sell, and trade-in Bitcoin and altcoins at the tap of a button" />
+  <meta data-react-helmet="true" property="og:image"
+    content="https://files.coinswitch.co/cs_kuber/banners/1025x500+(1).jpg" />
+  <meta data-react-helmet="true" property="twitter:card" content="summary_large_image" />
+  <meta data-react-helmet="true" property="twitter:url" content="https://coinswitch.co/" />
+  <meta data-react-helmet="true" property="twitter:title"
+    content="CoinSwitch: Buy Bitcoin and Cryptocurrency at India&#x27;s Leading Crypto Exchange" />
+  <meta data-react-helmet="true" property="twitter:site" content="@CoinSwitch" />
+  <meta data-react-helmet="true" property="twitter:description"
+    content="Made in India, for Indians - CoinSwitch is India’s simplest and most trusted Crypto app. Buy, sell, and trade-in Bitcoin and altcoins at the tap of a button" />
+  <meta data-react-helmet="true" property="twitter:image"
+    content="https://files.coinswitch.co/cs_kuber/banners/1025x500+(1).jpg" />
+  <meta data-react-helmet="true" name="keywords"
+    content="Crypto trading, Crypto trading, best crypto exchange, Best crypto trading platform." />
+  <title data-react-helmet="true">CoinSwitch: Buy Bitcoin and Cryptocurrency at India&#x27;s Leading Crypto Exchange
+  </title>
+  <link data-react-helmet="true" rel="canonical" href="https://coinswitch.co/" />
+  <link data-react-helmet="true" rel="icon"
+    href="data:image/png;base64,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" />
+  <link data-react-helmet="true" rel="icon" href="https://files.coinswitch.co/ui/public/images/favicon_new.png"
+    type="image/x-icon" />
+  <link data-react-helmet="true" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.19.5/antd.min.css"
+    integrity="sha512-TuMRIhMKYgsg78Bmxkw+utbtmXk5sSlzKTdjT4Fg0Ny8Vyq/96ccxn6cho6nIXcpkvOPhVxSWFWkeUzOJ6qacA=="
+    crossorigin="anonymous" referrerPolicy="no-referrer" />
+  <script data-react-helmet="true"
+    type="application/ld+json">{"@context":"http://schema.org","@type":"ItemList","itemListElement":[{"@type":"SiteNavigationElement","position":1,"name":"About us","description":"Know more about CoinSwitch.","url":"https://coinswitch.co/about-us"},{"@type":"SiteNavigationElement","position":2,"name":"List of Coins","description":"Top Cryptocurrency Prices in India Today: Daily Trends &amp; charts of Bitcoin, Ethereum, Dogecoin, Litecoin | Overview, Convert or Buy Cryptocurrencies with CoinSwitch","url":"https://coinswitch.co/coins/"},{"@type":"SiteNavigationElement","position":3,"name":"Buy Bitcoin","description":"Buy Bitcoin In India","url":"https://coinswitch.co/coins/buy-bitcoin-in-india/"},{"@type":"SiteNavigationElement","position":4,"name":"Switch","description":"Learn more about Crypto updates, price analysis, trading insights & investments from CoinSwitch. Stay tuned to the current trends in the crypto world.","url":"https://coinswitch.co/switch/"},{"@type":"SiteNavigationElement","position":5,"name":"CRE8","description":"The CRE8 index is an Indian Rupee denominated, well-diversified Virtual Digital Asset (crypto) index reflecting Indian market conditions.","url":"https://coinswitch.co/crypto-index/"},{"@type":"SiteNavigationElement","position":6,"name":"Crypto SIP","description":"Beat market volatility with the latest order type on CoinSwitch - monthly SIP for crypto! Buy a fixed amount every month and let the market do its work.","url":"https://coinswitch.co/crypto-sip/"}]}</script>
+  <script data-react-helmet="true"
+    type="application/ld+json">{"@context":"https://schema.org","@type":"Corporation","name":"CoinSwitch","url":"https://coinswitch.co/","logo":"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTcxIiBoZWlnaHQ9IjIxIiB2aWV3Qm94PSIwIDAgMTcxIDIxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMC40NDg3MyAxMC44MjQxVjEwLjc2OTJDMC40NDg3MyA1LjY0OTI1IDQuMTc5MTYgMS40MjUyNSA5LjM5NDQ5IDEuNDI1MjVDMTIuNTk5OCAxLjQyNTI1IDE0LjUxOTMgMi41OTU1NCAxNi4yOTQgNC4yOTYxTDE0LjkzNTggNS43OTU1M0MxMy40NTA5IDQuMzUwOTYgMTEuNzg0OSAzLjMwODY4IDkuMzc2MzkgMy4zMDg2OEM1LjQ2NDg5IDMuMzA4NjggMi41MzEyNSA2LjU2MzUzIDIuNTMxMjUgMTAuNzE0NFYxMC43NjkyQzIuNTMxMjUgMTQuOTU2NyA1LjQ4Mjk5IDE4LjIyOTggOS4zNzYzOSAxOC4yMjk4QzExLjgwMyAxOC4yMjk4IDEzLjM5NjYgMTcuMjc4OSAxNS4wODA3IDE1LjYxNUwxNi4zODQ1IDE2LjkzMTVDMTQuNTM3NCAxOC44MzMyIDEyLjUyNzMgMjAuMTEzMiA5LjMwMzk2IDIwLjExMzJDNC4yMTUzNyAyMC4xMTMyIDAuNDQ4NzMgMTYuMDE3MyAwLjQ0ODczIDEwLjgyNDFaTTQxLjAzMDcgMTkuODAyNFYxLjczNjExSDQzLjAyMjdWMTkuODAyNEg0MS4wMzA3Wk00OC4yMDE4IDEuNzM2MTFINTAuMDY2OUw2MS4yMDM5IDE2LjIxODRWMS43MzYxMUg2My4xNDE2VjE5LjgwMjRINjEuNTQ3OUw1MC4xMzk1IDQuOTkwOTZWMTkuODAyNEg0OC4yMDE4VjEuNzM2MTFaTTgyLjkxNjQgMS43MzYxMUg4Ny4wODE1TDkwLjczOTUgMTMuOTY5M0w5NC43MDUyIDEuNjgxMjZIOTguMDM3M0wxMDIuMDAzIDEzLjk2OTNMMTA1LjY2MSAxLjczNjExSDEwOS43MzZMMTAzLjcwNSAxOS45MzAzSDEwMC4zMTlMOTYuMzM1MSA4LjA5OTUzTDkyLjM1MTEgMTkuOTMwM0g4OC45NjQ3TDgyLjkxNjQgMS43MzYxMVpNMTEyLjc5NiAxOS44MDI0VjEuNzM2MTFIMTE2LjY4OVYxOS44MDI0SDExMi43OTZaTTEyNS4yMTkgNS40MTE1M0gxMTkuODRWMS43NTQ0SDEzNC40OVY1LjQxMTUzSDEyOS4xMTJWMTkuODIwN0gxMjUuMjE5VjUuNDExNTNaTTM0LjU0NzcgMTAuODI0MVYxMC43NjkyQzM0LjU0NzcgNi42NzMyNiAzMS42MTQgMy4zMDg2OCAyNy41NzU3IDMuMzA4NjhDMjMuNTM3NiAzLjMwODY4IDIwLjY1ODIgNi42MTgzOSAyMC42NTgyIDEwLjcxNDRWMTAuNzY5MkMyMC42NTgyIDE0Ljg2NTMgMjMuNTkxOCAxOC4yMjk4IDI3LjYzMDEgMTguMjI5OEMzMS42Njg0IDE4LjIyOTggMzQuNTQ3NyAxNC45MjAxIDM0LjU0NzcgMTAuODI0MVpNMTguNTkzOCAxMC44MjQxVjEwLjc2OTJDMTguNTkzOCA1Ljc5NTUzIDIyLjI1MTcgMS40MjUyNSAyNy42MzAxIDEuNDI1MjVDMzMuMDA4NCAxLjQyNTI1IDM2LjYzMDIgNS43NDA2OCAzNi42MzAyIDEwLjcxNDRWMTAuNzY5MkMzNi42MzAyIDE1Ljc0MjkgMzIuOTcyMiAyMC4xMTMyIDI3LjU5NCAyMC4xMTMyQzIyLjIxNTUgMjAuMTEzMiAxOC41OTM4IDE1Ljc5NzggMTguNTkzOCAxMC44MjQxWk0xMzUuOTM5IDEwLjgyNDFWMTAuNzY5MkMxMzUuOTM5IDUuNjMwOTcgMTM5LjcyNCAxLjQyNTI1IDE0NS4xNTcgMS40MjUyNUMxNDguNDg5IDEuNDI1MjUgMTUwLjQ4IDIuNTU4OTcgMTUyLjEyOSA0LjIwNDY4TDE0OS42NDcgNy4xMzA0QzE0OC4yOSA1Ljg2ODY3IDE0Ni44OTUgNS4xMDA2NyAxNDUuMTIgNS4xMDA2N0MxNDIuMTMyIDUuMTAwNjcgMTM5Ljk5NSA3LjYyNDExIDEzOS45OTUgMTAuNzMyN1YxMC43ODc1QzEzOS45OTUgMTMuODc3OCAxNDIuMDk2IDE2LjQ1NiAxNDUuMTIgMTYuNDU2QzE0Ny4xNDggMTYuNDU2IDE0OC4zODEgMTUuNjMzMyAxNDkuNzc0IDE0LjMzNUwxNTIuMjU1IDE2Ljg5NDlDMTUwLjQ0NSAxOC44ODgxIDE0OC40MTYgMjAuMTEzMiAxNDUuMDEyIDIwLjExMzJDMTM5Ljc5NiAyMC4xMTMyIDEzNS45MzkgMTYuMDE3MyAxMzUuOTM5IDEwLjgyNDFaTTE1NS4zNyAxLjczNjExSDE1OS4yNjRWOC44ODU4MkgxNjYuNDM1VjEuNzM2MTFIMTcwLjMyOFYxOS44MDI0SDE2Ni40MzVWMTIuNTYxM0gxNTkuMjY0VjE5LjgyMDdIMTU1LjM3VjEuNzM2MTFaTTcxLjYzNDYgMTguNDEyNkM3MS42MTY1IDE4LjQxMjYgNzEuNjE2NSAxOC40MzA5IDcxLjU5ODQgMTguNDMwOUM3MS40ODk3IDE4LjUwNDEgNzEuMzgxMiAxOC41NzcyIDcxLjI3MjUgMTguNjMyMUM3MS4wMzcgMTguNzYgNzAuNzY1NCAxOC44MzMzIDcwLjQ5MzcgMTguODUxNUM3MC40MjE0IDE4Ljg1MTUgNzAuMzQ4OSAxOC44Njk4IDcwLjI3NjUgMTguODY5OEM3MC4yNTgzIDE4Ljg2OTggNzAuMjQwMiAxOC44Njk4IDcwLjIyMjEgMTguODY5OEM2OC45OTA3IDE4Ljg1MTUgNjguMDEyOCAxNy44MDkyIDY4LjAzMSAxNi41MjkyQzY4LjA0OTEgMTUuMjg1NyA2OS4wNDUxIDE0LjI5ODQgNzAuMjU4MyAxNC4yOTg0QzcwLjI3NjUgMTQuMjk4NCA3MC4yOTQ2IDE0LjI5ODQgNzAuMzEyNyAxNC4yOTg0QzcxLjUwNzggMTQuMzE2NyA3Mi40NDk1IDE1LjI4NTcgNzIuNDg1NyAxNi40OTI2QzcyLjQ4NTcgMTYuNTQ3NSA3Mi41MDM4IDE2LjU4NDEgNzIuNDg1NyAxNi42MjA3QzcyLjQ4NTcgMTYuNzY3IDcyLjQ2NzYgMTYuOTEzMiA3Mi40MzE0IDE3LjA1OTVDNzIuNDEzMyAxNy4xMTQ0IDcyLjM5NTIgMTcuMTY5MyA3Mi4zNzcxIDE3LjIyNEM3Mi4zNTkgMTcuMjk3MiA3Mi4zNDA4IDE3LjM4ODcgNzIuMzA0NiAxNy40NjE4QzcyLjI2ODQgMTcuNTM1IDcyLjIzMjMgMTcuNjA4IDcyLjE5NTkgMTcuNjgxMkM3Mi4xNzc4IDE3LjczNjEgNzIuMTQxNyAxNy43NzI3IDcyLjEyMzYgMTcuODI3NUM3Mi4wNjkyIDE3LjkxOSA3MS45OTY4IDE3Ljk5MiA3MS45NDI0IDE4LjA2NTJDNzEuOTI0MyAxOC4wODM1IDcxLjkwNjIgMTguMTIwMSA3MS44ODgxIDE4LjEzODRDNzEuODE1OCAxOC4yNjY0IDcxLjcyNTIgMTguMzM5NiA3MS42MzQ2IDE4LjQxMjZaTTc1Ljg3MjEgNC4wNzY2OEM3NS44NTM5IDMuOTQ4NjcgNzUuODM1OCAzLjgyMDY4IDc1LjgzNTggMy42OTI2OEM3NS44MzU4IDMuNTQ2MzkgNzUuODUzOSAzLjQxODM5IDc1Ljg5MDIgMy4yOTA0Qzc1Ljg5MDIgMy4yNTM4MyA3NS45MDgzIDMuMjE3MjQgNzUuOTA4MyAzLjE4MDY3Qzc1LjkyNjQgMy4wNzA5NiA3NS45NjI2IDIuOTYxMjUgNzYuMDE3IDIuODUxNTRDNzYuMDM1MSAyLjgxNDk2IDc2LjA1MzIgMi43NjAxIDc2LjA3MTMgMi43MjM1M0M3Ni4xMDc0IDIuNjUwMzkgNzYuMTQzOCAyLjU3NzI1IDc2LjE5OCAyLjUwNDExQzc2LjIzNDIgMi40NDkyNiA3Ni4yNzA0IDIuMzk0MzkgNzYuMzA2NyAyLjMzOTUzQzc2LjMyNDggMi4zMDI5NiA3Ni4zNjEgMi4yNjYzOSA3Ni4zOTcyIDIuMjI5ODJDNzYuNDg3OCAyLjEyMDExIDc2LjU3ODQgMi4wMjg2NyA3Ni43MDUxIDEuOTM3MjVDNzYuNzIzMiAxLjkxODk2IDc2Ljc0MTMgMS45MTg5NiA3Ni43NTk0IDEuOTAwNjhDNzYuODMxOCAxLjg0NTgyIDc2LjkwNDMgMS43OTA5NyA3Ni45NzY4IDEuNzU0NEM3Ny4zMDI3IDEuNTUzMjUgNzcuNjgzIDEuNDI1MjUgNzguMDk5NCAxLjQyNTI1Qzc4LjExNzYgMS40MjUyNSA3OC4xMzU3IDEuNDI1MjUgNzguMTUzOCAxLjQyNTI1Qzc5LjM4NTIgMS40NDM1NCA4MC4zNjMxIDIuNDg1ODMgODAuMzQ1IDMuNzY1ODJDODAuMzI2OCA1LjAwOTI1IDc5LjMzMDggNS45OTY2OCA3OC4xMTc2IDUuOTk2NjhDNzguMDk5NCA1Ljk5NjY4IDc4LjA4MTMgNS45OTY2OCA3OC4wNjMyIDUuOTk2NjhDNzcuMDY3MiA1Ljk3ODQgNzYuMjUyMyA1LjMwMTgyIDc1Ljk4MDcgNC4zODc1NEM3NS45MjY0IDQuMjk2MSA3NS44OTAyIDQuMTg2MzkgNzUuODcyMSA0LjA3NjY4Wk03NS42NzI5IDguNjY2NEM3OS4yNDA0IDkuNjkwMzkgODEuMjMyMyAxMS4wNjE4IDgxLjE3OCAxNC4yMDdWMTQuMjYxOEM4MS4xMjM2IDE2LjYwMjQgNzkuOTY0NyAxOC4yNDgxIDc4LjA4MTMgMTkuMDg5M0M3Ni42NTA3IDE5LjkxMiA3My4yMTAxIDIwLjAwMzUgNzEuNDE3MyAyMC4wMDM1QzcyLjc1NzMgMTkuNTI4IDczLjc1MzMgMTguMjI5OCA3My43ODk2IDE2LjY5MzhDNzMuNzg5NiAxNi42MjA3IDczLjc4OTYgMTYuNTQ3NSA3My43ODk2IDE2LjQ3NDNDNzQuNDk1OCAxNi40MTk2IDc1LjIzODMgMTYuMjkxNSA3NS45NjI2IDE2LjA3MkM3Ni43OTU2IDE1LjgzNDQgNzcuMzAyNyAxNS4zMDQgNzcuMzIwOCAxNC41NzI3VjE0LjUxNzhDNzcuMzM4OSAxMy41MTIxIDc2Ljc0MTMgMTIuOTgxOCA3My44MDc3IDEyLjE0MDdDNzAuMjU4MyAxMS4xMzUgNjcuOTk0NyAxMC4wOTI3IDY4LjA0OTEgNi41MDg2OFY2LjQ1MzgyQzY4LjA4NTMgNC4zNTA5NiA2OS4xODk5IDIuNzQxODIgNzAuOTEwMiAxLjg2NDExQzcyLjIxNCAxLjA1OTU0IDc0LjUzMiAwLjk2ODEwOSA3NS45MDgzIDAuOTg2Mzk1Qzc1LjEyOTYgMS42MjYzOSA3NC42MjI2IDIuNTk1NTQgNzQuNjA0NSAzLjY5MjY4Qzc0LjYwNDUgMy45NjY5NiA3NC42MjI2IDQuMjIyOTYgNzQuNjc2OSA0LjQ3ODk3Qzc0LjA5NzQgNC41MzM4MiA3My41MzYgNC42NjE4MiA3Mi44NjYgNC44OTk1NEM3Mi4yNjg0IDUuMTczODMgNzEuOTQyNSA1LjYzMDk3IDcxLjkyNDMgNi4xNzk1M1Y2LjIzNDM5QzcxLjg4ODEgNy40MDQ2NyA3Mi42MzA1IDcuODA2OTYgNzUuNjcyOSA4LjY2NjRaIiBmaWxsPSIjMjMxRjIwIi8+Cjwvc3ZnPgo=","sameAs":["https://twitter.com/CoinSwitchKuber","https://www.instagram.com/coinswitch_co","https://www.youtube.com/c/coinswitchkuber","https://www.facebook.com/coinswitch/","https://www.linkedin.com/company/coinswitch"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.0","reviewCount":"31"},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"author":{"@type":"Organization","name":"Google Reviews"}}}</script>
+  <link rel="sitemap" type="application/xml" href="/sitemap/coins/sitemap-index.xml" />
+  <link rel="sitemap" type="application/xml" href="/sitemap/conversions/sitemap-index.xml" />
+  <link rel="sitemap" type="application/xml" href="/sitemap/blog/sitemap-index.xml" />
+  <link rel="sitemap" type="application/xml" href="/sitemap/home/sitemap-index.xml" />
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+<noscript>
+    <!-- <style>
+      .gatsby-image-wrapper noscript [data-main-image] {
+        opacity: 1 !important
+      }
+
+      .gatsby-image-wrapper [data-placeholder-image] {
+        opacity: 0 !important
+      }
+    </style> -->
+  </noscript>
+  <script
+    type="module">const e = "undefined" != typeof HTMLImageElement && "loading" in HTMLImageElement.prototype;
+     e && document.body.addEventListener("load", (function (e) { if (void 0 === e.target.dataset.mainImage) return; 
+     if (void 0 === e.target.dataset.gatsbyImageSsr) return; const t = e.target; let a = null, n = t;
+      for (; null === a && n;)void 0 !== n.parentNode.dataset.gatsbyImageWrapper && (a = n.parentNode), n = n.parentNode;
+       const o = a.querySelector("[data-placeholder-image]"),
+        r = new Image; r.src = t.currentSrc, r.decode().catch((() => { })).then((() => { t.style.opacity = 1, 
+        o && (o.style.opacity = 0, o.style.transition = "opacity 500ms linear") })) }), !0);</script>
+  <script data-gatsby="web-vitals-polyfill">
+    !function () { var e, t, n, i, r = { passive: !0, capture: !0 }, 
+    a = new Date, o = function () { i = [], t = -1, e = null, f(addEventListener) },
+     c = function (i, r) { e || (e = r, t = i, n = new Date, f(removeEventListener), u()) },
+      u = function () { if (t >= 0 && t < n - a)
+         { var r = { entryType: "first-input", name: e.type, target: e.target,
+          cancelable: e.cancelable, startTime: e.timeStamp, processingStart: e.timeStamp + t }; 
+          i.forEach((function (e) { e(r) })), i = [] } }, s = function (e) { if (e.cancelable)
+           { var t = (e.timeStamp > 1e12 ? new Date : performance.now()) - e.timeStamp;
+             "pointerdown" == e.type ? function (e, t) { var n = function () { c(e, t), a() },
+              i = function () { a() }, a = function () { removeEventListener("pointerup", n, r), 
+              removeEventListener("pointercancel", i, r) }; addEventListener("pointerup", n, r), 
+              addEventListener("pointercancel", i, r) }(t, e) : c(t, e) } }, f = function (e) 
+              { ["mousedown", "keydown", "touchstart", "pointerdown"].forEach((function (t) { return e(t, s, r) })) }, 
+              p = "hidden" === document.visibilityState ? 0 : 1 / 0; addEventListener("visibilitychange", (function e(t) 
+              { "hidden" === document.visibilityState && (p = t.timeStamp, removeEventListener("visibilitychange", e, !0)) }), !0); 
+              o(), self.webVitals = { firstInputPolyfill: function (e) { i.push(e), u() }, 
+              resetFirstInputPolyfill: o, get firstHiddenTime() { return p } } }();
+  </script>
+  <script>window.dataLayer = window.dataLayer || []; window.dataLayer.push({ "platform": "gatsby" }); (function (w, d, s, l, i) 
+  { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+   var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
+   j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '';
+    f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-5TVGKWG');</script>
+</head>
+
+<body>
+  <noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TVGKWG" height="0" width="0"
+      style="display: none; visibility: hidden" aria-hidden="true"></iframe></noscript><noscript
+    id="gatsby-noscript">CoinSwitch</noscript>
+  <div id="___gatsby">
+    <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
+      <div class="fontchangelato">
+        <div id="__next">
+          <div class="__className_cc80b4">
+            <header class="Header_header__Z8PUO">
+              <div class="Header_width_wrapper__FWQMm"><img alt="logo"
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMjIwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNNjYgMjIuNjcwN0M2NiAxNy43ODAzIDY5LjQxOTYgMTQuNDI1OCA3NC40ODQ3IDE0LjQyNThDNzYuODA1NiAxNC40MjU4IDc4LjgwNzkgMTUuMjI2NyA4MC41MiAxNi44NTY5TDc4LjMyNzUgMTkuMTg5Qzc3LjM1NzMgMTguMjI3OSA3NS45NzMzIDE3LjY4NjEgNzQuNTUxMyAxNy42ODYxQzcxLjY0NTMgMTcuNjg2MSA2OS42MTQ1IDE5LjczMDggNjkuNjE0NSAyMi42NzA3QzY5LjYxNDUgMjUuNjEwNyA3MS42MTY4IDI3LjY1NTQgNzQuNTUxMyAyNy42NTU0Qzc2LjEwMTcgMjcuNjU1NCA3Ny41MTkgMjcuMDgwNiA3OC40ODkyIDI2LjAyNTNMODAuNzE1IDI4LjQyMzRDNzguOTQxIDMwLjExOTUgNzYuOTcyIDMwLjkxNTcgNzQuNTE4IDMwLjkxNTdDNjkuMzU3NyAzMC45MjA0IDY2IDI3LjY2MDEgNjYgMjIuNjcwN1oiIGZpbGw9IiMxQjFFMkQiLz4KPHBhdGggZD0iTTk5LjY0NDUgMTAuMjM3OUM5OS42NDQ1IDguOTI4MTUgMTAwLjYxNSA4IDEwMS45MzcgOEMxMDMuMjU5IDggMTA0LjI5MSA4LjkyODE1IDEwNC4yOTEgMTAuMjM3OUMxMDQuMjkxIDExLjU0NzcgMTAzLjMyMSAxMi40MDk5IDEwMS45MzcgMTIuNDA5OUMxMDAuNTUzIDEyLjQwOTkgOTkuNjQ0NSAxMS40ODE3IDk5LjY0NDUgMTAuMjM3OU0xMDAuMTMgMTQuNzc1SDEwMy43NDRWMzAuNTY3NkgxMDAuMTNWMTQuNzc1VjE0Ljc3NVoiIGZpbGw9IiMxQjFFMkQiLz4KPHBhdGggZD0iTTEyMi45MzkgMjEuODQyNlYzMC41NjgxSDExOS4zMjRWMjIuMDY0QzExOS4zMjQgMTkuMjg0MyAxMTcuODc0IDE3LjY4NzEgMTE1LjQ1MyAxNy42ODcxQzExMi44MDkgMTcuNjg3MSAxMTAuOTY4IDE5LjYwNDYgMTEwLjk2OCAyMi4yNTcyVjMwLjU2ODFIMTA3LjM1NFYxNC43NzU1SDExMC41NzhMMTEwLjYxMSAxNi44NTMyQzExMS45NjcgMTUuMjU2IDExMy44NjkgMTQuNDU1MSAxMTYuMTI4IDE0LjQ1NTFDMTIwLjIyOCAxNC40NTUxIDEyMi45MzkgMTcuMzMzNyAxMjIuOTM5IDIxLjgzNzkiIGZpbGw9IiMxQjFFMkQiLz4KPHBhdGggZD0iTTEyNS4xMDQgMjguNjE2M0wxMjYuNzgyIDI2LjAyNUMxMjguMiAyNy4xNDE3IDEzMC4zMDIgMjcuNzgyNCAxMzIuMzk5IDI3Ljc4MjRDMTM0LjQ5NyAyNy43ODI0IDEzNS41OTUgMjcuMTQxNyAxMzUuNTk1IDI1Ljk5MjFDMTM1LjU5NSAyNC44NDI1IDEzNC41NjMgMjQuMzI4OSAxMzIuMTA5IDI0LjA3NDVDMTI3Ljk0OCAyMy42OTI5IDEyNS41ODkgMjEuOTYzOCAxMjUuNTg5IDE5LjIxNzFDMTI1LjU4OSAxNi40NzAzIDEyOC4zNjEgMTQuMzkyNiAxMzIuNDk0IDE0LjM5MjZDMTM0LjkxNSAxNC4zOTI2IDEzNy4wNDYgMTUuMDAwNCAxMzguODIgMTYuMjE1OUwxMzcuMjQxIDE4Ljc3NDJDMTM1LjgxOSAxNy44NzkgMTM0LjMwNiAxNy40MzE0IDEzMi42NjEgMTcuNDMxNEMxMzAuMzY4IDE3LjQzMTQgMTI5LjE0MSAxOC4wNzIyIDEyOS4xNDEgMTkuMjIxOEMxMjkuMTQxIDIwLjI0NDEgMTMwLjA3OCAyMC43ODYgMTMyLjM5OSAyMS4wNDUxQzEzNy4xMTIgMjEuNTU4NiAxMzkuMTc2IDIzLjA1NjkgMTM5LjE3NiAyNi4wMjk4QzEzOS4xNzYgMjkuMDAyNyAxMzYuNDMyIDMwLjk1MzIgMTMyLjMwNCAzMC45NTMyQzEyOS42MjYgMzAuOTUzMiAxMjcuMjM5IDMwLjE4NTIgMTI1LjEwOCAyOC42MjEiIGZpbGw9IiM1MTRFRDgiLz4KPHBhdGggZD0iTTE2Ni4xNzQgMTQuNzc1NEwxNjAuODgxIDMwLjU2OEgxNTcuMDQzTDE1NS41MjYgMjYuMDU5MkwxNTMuMjMzIDE5LjczMThMMTUwLjk0NiAyNi4wNTkyTDE0OS40MjkgMzAuNTY4SDE0NS41NTdMMTQwLjIzIDE0Ljc3NTRIMTQ0LjA2OUwxNDUuODc2IDIwLjU5NEwxNDcuNTg4IDI2LjQ3ODVMMTUxLjY4OCAxNC43NzU0SDE1NC43NUwxNTguODE3IDI2LjUzOThMMTYwLjU5MSAyMC41OTRMMTYyLjMzNiAxNC43NzU0SDE2Ni4xNzRaIiBmaWxsPSIjNTE0RUQ4Ii8+CjxwYXRoIGQ9Ik0xNjcuNDk4IDEwLjIzNzlDMTY3LjQ5OCA4LjkyODE1IDE2OC40NjggOCAxNjkuNzkgOEMxNzEuMTEzIDggMTcyLjE0NSA4LjkyODE1IDE3Mi4xNDUgMTAuMjM3OUMxNzIuMTQ1IDExLjU0NzcgMTcxLjE3NCAxMi40MDk5IDE2OS43OSAxMi40MDk5QzE2OC40MDYgMTIuNDA5OSAxNjcuNDk4IDExLjQ4MTcgMTY3LjQ5OCAxMC4yMzc5TTE2Ny45ODMgMTQuNzc1SDE3MS41OThWMzAuNTY3NkgxNjcuOTgzVjE0Ljc3NVYxNC43NzVaIiBmaWxsPSIjNTE0RUQ4Ii8+CjxwYXRoIGQ9Ik0xODUuNzYgMzAuMDI2MkMxODQuNTMzIDMwLjU2OCAxODMuNTAxIDMwLjc5NDIgMTgyLjE3OSAzMC43OTQyQzE3OC44ODggMzAuNzk0MiAxNzYuOTUyIDI4LjkwOTYgMTc2Ljk1MiAyNS4xMzU4VjE3LjgxNDJIMTczLjk1MVYxNC43ODAxSDE3Ni45NTJWMTAuNjE5OUwxODAuNTMzIDEwLjIzODNWMTQuNzc1NEgxODUuMTEzVjE3LjgwOTVIMTgwLjUzM1YyNS4xMzFDMTgwLjUzMyAyNi43MjgyIDE4MS4yNzUgMjcuNjIzNCAxODIuNzU5IDI3LjYyMzRDMTgzLjQwNiAyNy42MjM0IDE4NC4xNDggMjcuNDMwMiAxODQuNzYyIDI3LjE0MjhMMTg1Ljc2IDMwLjAyMTVWMzAuMDI2MloiIGZpbGw9IiM1MTRFRDgiLz4KPHBhdGggZD0iTTE4Ni42MDIgMjIuNjcwN0MxODYuNjAyIDE3Ljc4MDMgMTkwLjAyMSAxNC40MjU4IDE5NS4wODYgMTQuNDI1OEMxOTcuNDA3IDE0LjQyNTggMTk5LjQwOSAxNS4yMjY3IDIwMS4xMjIgMTYuODU2OUwxOTguOTI5IDE5LjE4OUMxOTcuOTU5IDE4LjIyNzkgMTk2LjU3NSAxNy42ODYxIDE5NS4xNTMgMTcuNjg2MUMxOTIuMjQ3IDE3LjY4NjEgMTkwLjIxNiAxOS43MzA4IDE5MC4yMTYgMjIuNjcwN0MxOTAuMjE2IDI1LjYxMDcgMTkyLjIxOCAyNy42NTU0IDE5NS4xNTMgMjcuNjU1NEMxOTYuNzAzIDI3LjY1NTQgMTk4LjEyMSAyNy4wODA2IDE5OS4wOTEgMjYuMDI1M0wyMDEuMzE3IDI4LjQyMzRDMTk5LjU0MyAzMC4xMTk1IDE5Ny41NzQgMzAuOTE1NyAxOTUuMTIgMzAuOTE1N0MxODkuOTU5IDMwLjkxNTcgMTg2LjYwMiAyNy42NTU0IDE4Ni42MDIgMjIuNjcwNyIgZmlsbD0iIzUxNEVEOCIvPgo8cGF0aCBkPSJNMjE4Ljk5NiAyMS44NDIzVjMwLjU2NzhIMjE1LjM4MVYyMi4wNjM3QzIxNS4zODEgMTkuMjg0IDIxMy45MyAxNy42ODY4IDIxMS41MSAxNy42ODY4QzIwOC44NjUgMTcuNjg2OCAyMDcuMDI1IDE5LjYwNDQgMjA3LjAyNSAyMi4yNTY5VjMwLjU2NzhIMjAzLjQxVjguMTkzMzZIMjA3LjAyNVYxNi42MzE1QzIwOC4zMTQgMTUuMTk0NSAyMTAuMDU5IDE0LjQ1OTUgMjEyLjE5IDE0LjQ1OTVDMjE2LjM1MSAxNC40NTk1IDIxOSAxNy4zNjY1IDIxOSAyMS44NDIzIiBmaWxsPSIjNTE0RUQ4Ii8+CjxwYXRoIGQ9Ik04MS4zNDM4IDIyLjg0OTlDODEuMzQzOCAxOC4yMTg2IDg0LjU5NjggMTQuNzc5MyA4OS42ODEgMTQuNzc5M0M5NC43NjUxIDE0Ljc3OTMgOTcuOTg0OSAxOC4yMTg2IDk3Ljk4NDkgMjIuODQ5OUM5Ny45ODQ5IDI3LjQ4MTMgOTQuNzMxOCAzMC45MjA2IDg5LjY4MSAzMC45MjA2Qzg0LjYzMDEgMzAuOTIwNiA4MS4zNDM4IDI3LjQ4MTMgODEuMzQzOCAyMi44NDk5Wk04OS42ODEgMjcuNzMxQzkyLjU4NjkgMjcuNzMxIDk0LjQ1MTIgMjUuNTQwMiA5NC40NTEyIDIyLjg0OTlDOTQuNDUxMiAyMC4xNTk3IDkyLjU4NjkgMTcuOTY4OSA4OS42ODEgMTcuOTY4OUM4Ni43NzUxIDE3Ljk2ODkgODQuODgyMiAyMC4xNTk3IDg0Ljg4MjIgMjIuODQ5OUM4NC44ODIyIDI1LjU0MDIgODYuNzQ2NSAyNy43MzEgODkuNjgxIDI3LjczMVYyNy43MzFaIiBmaWxsPSIjMUIxRTJEIi8+CjxwYXRoIGQ9Ik0xOC4yMDA2IDE5LjYyODNWMi4xNDI1OEM4LjU0MzQxIDIuMTQyNTggMC43MTQ4NDQgOS45NzExNSAwLjcxNDg0NCAxOS42MjgzQzAuNzE0ODQ0IDI5LjI4NTQgOC41NDM0MSAzNy4xMTQgMTguMjAwNiAzNy4xMTRWMTkuNjI4M1oiIGZpbGw9IiMxQjFFMkQiLz4KPHBhdGggZD0iTTIwLjY1MDQgMi4xNDI1OEMyMC42NTA0IDExLjE5MjYgMjcuOTg2MSAxOC41MjEyIDM3LjAzNjEgMTguNTI4M1YyLjE0MjU4SDIwLjY1MDRaIiBmaWxsPSIjNkI5MUZDIi8+CjxwYXRoIGQ9Ik0zOC41NzIzIDI5LjA1NzZDMzguNTcyMyAyNC4xNjIgMzQuNjAzNiAyMC4xOTM0IDI5LjcwOCAyMC4xOTM0QzI0LjgxMjQgMjAuMTkzNCAyMC44NDM4IDI0LjE2MiAyMC44NDM4IDI5LjA1NzZDMjAuODQzOCAzMy45NTMzIDI0LjgxMjQgMzcuOTIxOSAyOS43MDggMzcuOTIxOUMzNC42MDM2IDM3LjkyMTkgMzguNTcyMyAzMy45NTMzIDM4LjU3MjMgMjkuMDU3NloiIGZpbGw9IiM1MTRFRDgiLz4KPC9zdmc+Cg=="
+                  width="220" height="40" class="Header_header_logo__Fs6Ov" />
+                <div class="Header_header_menu_icon__jOzTU "><span
+                    class="Header_header_menu_icon_bar__S42j0"></span><span
+                    class="Header_header_menu_icon_bar__S42j0"></span><span
+                    class="Header_header_menu_icon_bar__S42j0"></span></div>
+                <div class="Header_header_content_wrapper__AKUFm">
+                  <ul class="Header_header_nav__dTpoT">
+                    <li class="Header_header_nav_item__QYIP0 Header_header_nav_item_hoverItem__bFmwJ">Products
+                      <img alt="chevron"
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEyIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik02IDcuMzc1MDVMMCAxLjM3NTA1TDEuMDc1IDAuMzAwMDQ5TDYgNS4yNTAwNUwxMC45MjUgMC4zMjUwNDhMMTIgMS40MDAwNUw2IDcuMzc1MDVaIiBmaWxsPSIjMTIxMzE5Ii8+Cjwvc3ZnPgo="
+                        width="12" height="6" class="Header_header_nav_item_chevron__pxQWA" />
+                      <ul class="Header_header_nav_item_hoverItem_menu__puKSB">
+                        <li class="Header_header_nav_item_hoverItem_menu_item__I8HLS"><a href="/crypto-index/">Crypto
+                            Rupee Index
+                            <p class="Header_header_nav_item_hoverItem_menu_item_description__4kMkl">(CRE8)</p>
+                          </a></li>
+                        <li class="Header_header_nav_item_hoverItem_menu_item__I8HLS"><a href="/crypto-sip/">Systematic
+                            Investment Plan
+                            <p class="Header_header_nav_item_hoverItem_menu_item_description__4kMkl">Buy crypto monthly
+                              using SIP</p>
+                          </a></li>
+                      </ul>
+                    </li>
+                    <li class="Header_header_nav_item__QYIP0"><a href="/coins/">Coins</a></li>
+                    <li class="Header_header_nav_item__QYIP0"><a href="https://coinswitch.co/switch/"
+                        target="_blank">Switch</a></li>
+                    <li class="Header_header_nav_item__QYIP0 Header_header_nav_item_hoverItem__bFmwJ">Company
+                      <img alt="chevron"
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEyIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik02IDcuMzc1MDVMMCAxLjM3NTA1TDEuMDc1IDAuMzAwMDQ5TDYgNS4yNTAwNUwxMC45MjUgMC4zMjUwNDhMMTIgMS40MDAwNUw2IDcuMzc1MDVaIiBmaWxsPSIjMTIxMzE5Ii8+Cjwvc3ZnPgo="
+                        width="12" height="6" class="Header_header_nav_item_chevron__pxQWA" />
+                      <ul class="Header_header_nav_item_hoverItem_menu__puKSB">
+                        <li class="Header_header_nav_item_hoverItem_menu_item__I8HLS"><a href="/about-us/">About Us</a>
+                        </li>
+                        <li class="Header_header_nav_item_hoverItem_menu_item__I8HLS"><a
+                            href="https://recruiterflow.com/coinswitch/jobs">Careers</a></li>
+                        <li class="Header_header_nav_item_hoverItem_menu_item__I8HLS"><a href="/press/">Press</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="Button_btn__R8YYU Header_header_button___UaLQ" id="header_pro_login"><a
+                      class="Button_btn_link__UrmfQ" target="_blank"
+                      href="https://coinswitch.co/pro/trade?utm_source=header_home" rel="noreferrer">Login To Pro</a>
+                  </div>
+                </div>
+              </div>
+              <div class="Header_mobileMenu__IObDs ">
+                <ul class="Header_mobileMenu_list__O2L_X">
+                  <li class="Header_mobileMenu_list_item__SKknC">
+                    <div class="Header_content_wrapper__0E0vz">
+                      <p>Products</p><img alt="chevron"
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEyIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik02IDcuMzc1MDVMMCAxLjM3NTA1TDEuMDc1IDAuMzAwMDQ5TDYgNS4yNTAwNUwxMC45MjUgMC4zMjUwNDhMMTIgMS40MDAwNUw2IDcuMzc1MDVaIiBmaWxsPSIjMTIxMzE5Ii8+Cjwvc3ZnPgo="
+                        width="12" height="6" class="Header_mobileMenu_list_item_icon__P6E8C" />
+                    </div>
+                    <ul class="Header_mobileMenu_list_item_menu__5JPd1 ">
+                      <li class="Header_mobileMenu_list_item_menu_item__i8ppN"><a
+                          href="https://coinswitch.co/crypto-index/">
+                          <p class="Header_mobileMenu_list_item_menu_item_text__JmhUF">Crypto Rupee Index</p>
+                          <p class="Header_mobileMenu_list_item_menu_item_subText__TCyGS">(CRE8)</p>
+                        </a></li>
+                      <li class="Header_mobileMenu_list_item_menu_item__i8ppN"><a
+                          href="https://coinswitch.co/crypto-sip/">
+                          <p class="Header_mobileMenu_list_item_menu_item_text__JmhUF">Systematic Investment Plan</p>
+                          <p class="Header_mobileMenu_list_item_menu_item_subText__TCyGS">Buy crypto monthly using SIP
+                          </p>
+                        </a></li>
+                    </ul>
+                  </li>
+                  <li class="Header_mobileMenu_list_item__SKknC"><a href="https://coinswitch.co/coins/">
+                      <p>Coins</p>
+                    </a></li>
+                  <li class="Header_mobileMenu_list_item__SKknC"><a href="https://coinswitch.co/switch/"
+                      target="_blank">
+                      <p>Switch</p>
+                    </a></li>
+                  <li class="Header_mobileMenu_list_item__SKknC">
+                    <div class="Header_content_wrapper__0E0vz">
+                      <p>Company</p><img alt="chevron"
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEyIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik02IDcuMzc1MDVMMCAxLjM3NTA1TDEuMDc1IDAuMzAwMDQ5TDYgNS4yNTAwNUwxMC45MjUgMC4zMjUwNDhMMTIgMS40MDAwNUw2IDcuMzc1MDVaIiBmaWxsPSIjMTIxMzE5Ii8+Cjwvc3ZnPgo="
+                        width="12" height="6" class="Header_mobileMenu_list_item_icon__P6E8C" />
+                    </div>
+                    <ul class="Header_mobileMenu_list_item_menu__5JPd1 ">
+                      <li class="Header_mobileMenu_list_item_menu_item__i8ppN"><a
+                          href="https://coinswitch.co/about-us/">
+                          <p class="Header_mobileMenu_list_item_menu_item_text__JmhUF">About Us</p>
+                        </a></li>
+                      <li class="Header_mobileMenu_list_item_menu_item__i8ppN"><a
+                          href="https://recruiterflow.com/coinswitch/jobs" target="_blank">
+                          <p class="Header_mobileMenu_list_item_menu_item_text__JmhUF">Careers</p>
+                        </a></li>
+                      <li class="Header_mobileMenu_list_item_menu_item__i8ppN"><a href="https://coinswitch.co/press/">
+                          <p class="Header_mobileMenu_list_item_menu_item_text__JmhUF">Press</p>
+                        </a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </header>
+          <main class="Home_home__lipdu">
+            <div class="glowing">
+    
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div>
+            
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div>  
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div>
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div> 
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div>
+            
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div>
+            
+            <div class="glowing">
+              
+              <span style="--i:1;"></span>
+              
+              <span style="--i:2;"></span>
+              
+              <span style="--i:3;"></span>
+              
+            </div>
+
+            <div>
+              <div class="wave"></div>
+              <div class="wave"></div>
+              <div class="wave"></div>
+           </div>
+
+          
+
+            
+            <img 
+                 width="1728" height="700"
+                class="Home_bg__6qLiw Home_bg_grid__iqpY2 Home_bg_grid_desktop__sqqX5" /><img 
+                width="1728" height="700" class="Home_bg__6qLiw Home_bg_grid__iqpY2 Home_bg_grid_mob__RVraK" /><img
+                alt="confetti"
+                src="data:image/png;base64,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"
+                width="162" height="162" class="Home_bg__6qLiw Home_bg_semicircle__a9_Cj Home_floating__l9JVA" /><img
+                alt="confetti"
+                src="data:image/png;base64,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"
+                width="118" height="118" class="Home_bg__6qLiw Home_bg_circle__kZ1BZ Home_floating__l9JVA" /><img
+                alt="confetti"
+                src="data:image/png;base64,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"
+                width="118" height="118" class="Home_bg__6qLiw Home_bg_triangle__ri9ZS Home_floating__l9JVA" />
+              <div class="Home_width_wrapper__752pr Home_home_content__NcSjo">
+                <div class="Home_heading_wrapper__s__4v Home_fadeIn__xU7qo">
+                  <h1 class="Home_home_content_heading__ZpsrM Home_home_content_heading_desktop__teKC5">Build wealth on
+                    India&#x27;s simplest<span class="Home_home_content_heading_green__gBqPj"> 
+                      crypto app</span>
+                  </h1>
+                  <h1 class="Home_home_content_heading__ZpsrM Home_home_content_heading_mob__XCH1_">Build wealth on
+                    <br /> India&#x27;s simplest <br /><span class="Home_home_content_heading_green__gBqPj">
+                      crypto app</span></h1>
+                  <p class="Home_home_content_heading_sub__hLLY0">Begin your investment journey today</p>
+                  <div class="Home_storeCtaWrapper___eBQ8"><a href="https://coinswitch-kuber.onelink.me/AaX7/cv7i4wac"
+                      class="Home_storeCtaWrapper_link__7eFWz"><img alt="app_store_download"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWQAAACECAYAAACnKFEWAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAABrcSURBVHgB7Z09kBXVtsd7RlQgUEI10HmRGqBmYBUgJsKrAgoDIADregOxSq3yvgADsOpeq8AqpKzylhBA8pSPAJN3BQKMRAggRAwwHDDwZQ5aAg+Qef07d9a4p9m7e3efPufsnvn/qpoznNMfu3d3//fqtfdeayxrgcWLF0+Mj4+/dP/+/WVjY2O9JRNCiHnM9PT0FEv+52SugZencrI+GcsakhdgbS7Cf8kLtDb/70QmhBALm8ncGD2Xf3598+bNf2UNqCXIy3Lu3Lnzfi7Cf5v5b7Z9+/bsxRdfzF544YXs8ccfz5555plMCCEWAhjFV65cya5fv56dP38+u3DhQnbt2jV+Qpy/yL0GX96+fXsydn/RgrxkyZL3849/5MuyDRs2ZO+99162Zs2aTAghxJ8gzMePH+8tOZO5J+Gj33///YuYbSsFGf9wrvT/nf+5dvXq1dmRI0dkBQshRAVYyvv27TNhPpd7Fv5aZS2XCvLDDz/80qJFi/4nd01MHD58ONu4cWMmhBAiHgQZYc4FevLevXuv371793Jo3aAgz4jxt7lveNnJkydlFQshREOwltevX8/nVC7Kr4ZE2SvIrhifPXuW3rtMCCFEc27cuJGtW7eOTsCgKD8gyDM+429zi3ji4sWLEmMhhGgJR5Qnc5/yq0Wf8nhxAzrwEGNZxkII0S4MDcYFnH/aYIk5zBHk3Dp+M/9Yu3v3bvmMhRBiAKCtjFbLWbtkyZK/ub/NuizMVbFjx46JmZWFEEIMCDr5zp8/P/Xoo4/+h027nrWQmQadf0zs2bMnE0IIMVgYSpzD7OdZK3lWkHMH85u5dSxXhRBCDAG0llnPufa+b9/1BHnp0qWb848JBFkIIcRwIARFzjKCtfGHWcibUWvFphBCiOGB5jLyYsZl/G9Bzk3mV4hTIYQQYri88cYb2UwY42x82b8HG09IkIUQYvgQujhnopfo4/bt2y/xP3XmCSHE8Fm+fHnvk6xLuCwm+A9B5oUQQgwXmxFN6rtxy3+HY1kIIcRwMe8EOUnHlZBUCCFGT89CzoQQQiSBBFkIIRJBgiyEEIkgQRZCiESQIAshRCJIkIUQIhEkyEIIkQgSZCGESAQJck2+//777Nq1a5kQQrSNBLkCUl0dOnSol7r7qaeeyl5++eXs+PHjmRBCtM2iTHgxIWaZyT8ohBADRYLs4cqVK9m2bduCrgmFKm2XCxcuZMeOHevFhZ1JaTNydu7c2fvscgZ2O4cDBw4oeFhHGFu6dOk/pqen/37z5s1MZD13xAcffFBqFZ89e3bo6a5oHEgb7uPpp5+eFbMuNhbUOeJBkoRvvvkmS4H8ueh9pv5cmNHgu+52DlevXpURkThcq7GxsY9kITuYMFQxqtjRIYud77EyKf8nn3zSSwkj5j9c9+eff773twyq+YEEeYbz589HiTFW3Khf/7B4jBs3bvRcLPv27es9oG+//XamhLVCdBMJcpbNClkMO3bsyEZN8fUTd8XGjRt7I0FMnH2CzHliRZuljaW/YcOGOfs7ffp0bx80PO4++I7f7FjFfdJImf/X9mH7pmOU9ViHfbrbx0BjyT5pfNgH5Q5dB1xNJ06c6A1PhKpjunVi59D09T62nHY8++3gwYOz21DOmMaU47hvTDbyh+19BkOxbGXnWae+RcvgQ16yZMn0Quatt96apg6qlueee256cnJyehRwXCtHiO+++252ncuXL8/5LX/og+d06tSp2fXyzrXe91u2bJmzvdXRE088Mef7/MF9YH1bd+/evb39F4/5+eefz9mHHfO1116b8/0vv/zS+85X7hUrVkzn4vtAHfmOx7Jr164H6ovzfvLJJx9Y9+jRo5V1HVtO3z2TN5yzx/Edv1g/PkLnyT1guPurWtfgmsXWt2gP6hgtXvCC7Apd1cLNmkI5y7AHFZEzcmtxjjDxfx5GV2TtYePTJ7yuALgPMvszcTHc/W7durUnfGzD37YP9+EOCbLth2OzDuXm08pSXN+EjuNwPOqM9SlHsdz8ZmKI2FgZOaatH/tcWB1QLsQvtpwch+PZsSlH8XqEYBtXaDkeiyv+9hvnyb3LNmXlsuvA71Z/fNr6vkZNtIMEeYY61vEoiRVke9jdxsO+41xj1rcH0B5uO7YJhmvB2XeuRW51ym8uiIyJnc8qdwXCPd+ihRn6DfHwWX2uxW7YGwPnioXrYgIb81y4ZXHPqfibW67Q9XDrp/iGU3VsHyGL232TcoXfrnvoPGIaCtEME+QFP1OP0QkxMNStq5g/1ecHNN8qfsPid1Y39skIDnyK+BfBOhTxRfpGnhT9tuaPtG3L+OGHH3qfrF/0dfJ/fNlu2QDfq+t/xcdqvuEidg7UiWX9Nd59990sFisnZSqer9u5Sj0VsXMwKKeVpap+6kB/gItbRza800ICUAbKZXVnfmq+o0y5OGdicCzoTr3YuBQIUVfGcdoDZiLEQ2QPt+8cli9f3vu8fv367Hd0xtHRhEgjWLnFNKdzzDp8TOiLD3wb2HV57LHHvL8jEIice/04dzo0z5w5Ex1vxFcnda611TdjwX3Y9z6BLTYEgyLmOFY+Pm0onQ8aoFEN+1wILGhB/umnnyrXYaZWV3qYESGzxIrWVxXuQ8sDhwCb9clDaKKLKNOjjxjb73VHTcRQNbTQN3GHOCPUAWWlUeGcEFcaELOIB8Wvv/6axZYzRay++WRmX4hBNL7iTxa8hRyCB/nkyZO1hW2UYB2C+6rMA8biuhdcTFRdS9RcC1jILIjc7t27e7+Z+GKFmvgPYsyzWZa+V30wV4FdHysn51ec7efbR9n+XfdNbDl5lbdhYmXlTJWJiYneJ+cQGjonBo+ivRXAqtqzZ09v8kVXxNhib9hYVBNPw2buIdjuq7ONwYXiW4AJL9PIwRV46gWLkwZtUBNlzEqnvNbQGDau2S2XuVyKr+es57OO7fyIoVF0e9g5x8DxY8o56HupX5+zuaSgeB6cw9atW3vj3Nv0bYsHWdAWsomLdRIVJ0Okiuvj4wFxX4tpTIpTp+mksskaK1eu7L3OAxMo2JbzL26zatWq3ifbFDvWqCN8zDAofyLXhnNBHBEIxN+sdrPq+d0aA7PqWA/XBedok0R8DQbrmx+a+jQXB5a/+1YRg5WTOuH41E+xnIPog6C8Vk6uK/dvP8eiIafcnAcWP/VtdcgnjbYs5wEzX4a9MXTJxk0yZKg4lKkf2K+N4bTFjjMsysZLM86UIWO+IV/u9r7JBGwXmuxiQ7CKw7PcYVOxw8wMG/LljpMOjUMGhmwVy835+iZPcI2K61IGm+xQLA/nbeUp1oftJxZ3fG9VOX11YNg+yq6lC/t3J5f4Job4rm/oN18d2hjkNp8pMRcb9tbpaG82xTPUq44FxELLXtfyrdq3gZWCNblp06aBd/61EQ7UHZmARVXWA49VZH5RnysgdOyy7Xy/2Xeh/QHXg3X4Hb9tWbnNB8y1Z72y8gB1wjr8Zq6FsvMrI6acMfUaKmsI33Zl51B1fnYeUHWfiP6xaG+dE+SmgeO58Xid4+YK3YT9BqW3Y2jevxCiDp0UZFptggD1m9MOfyEWLWNwafktQHrsJJEqEGYmkigGrRAihs4JMh07xd7f1GFCSSoZMIQQ6dKpAPVYxViwXYOed/xwuDGEEKKK5Mchd1WMDaz6LpdfCDE8khbk+SJmH3/8cSaEEFUkK8h03HXNZ+yDUR1djhQnhBgeyQpyKMNyl2D2G3EVNNpCCBFDkoLs5n3rKkzNPXz4cCaEELEkOcqi664KLGKJsQAmGDETkKhvxLkozkpkwa1lswrFwiY5QbYwil0Gn3EKDxdvGr7GjSm9xRCVol24j6l7hDg067M4EYkZnoMKRCS6QXIuCwsH2VV4qFJ5oMj04abisQUhqBPzV8SD+BIKlT4Q6rnOFHzufSLP7dy5s/NGiWhGcoLc1vTlUZHKJBAeaAIjhSj7TTSDOif0Z7/ZSRBmBF2ivPBIymURm+MuVVKyjqsaNsZ3M7VbtAP3bZsiavuLiYmya9euB2I3y/XRTZIS5JgcdykziNxyTaly/fAA47boQkD+LlDmZqA/Yfv27b26RiQtqLxlM6Hx9G3Ld+y3yt/vCxGbknEg4knOQu4yqYgbD2eMjxjRliD3D/UYeiPBUiVji6+Tl5EV1oiHgmexX/avkK4Lg6R8yF12V1gOuBTw+Yd91hLWmXKk9U/obQSXEIIcM+KG9UJDJRULZeGQlCBbosou4mZtHjWW784FX2TRGkaM++2AEv4s1Ywtrht6lZmdPksYK1kN58JAWadbIhV/na9j1JKU+nzcsr76I+Rma9qfEHJNaJjiwmBBZ52ej5B+qggdSsDDTo+8i1lfddwtNvvMhe2LGahtPbfTytYrS6XlA+ErWok+N5EN9yNrsjsjblAZxUOWa9OJQZTRN3SSyTxGjGuPt03ferF1TgNQnF1oHZKU0bK1xxJz/SzDtXvtuG7FjOhF2I5rbsfgvNkv5Wtyr42UlLJOFzMAd2nZsmXLdAr4Mga7mYV9dezLjFyGm3XalmJmajI8u9mQfUtZxusivnK72+YPY29/ZcejbnyZsPuBzOO+Y9Wt0zr4rnHMwnZlkFU65rq517yf62cZsjmuZSr33SMh2L7qmje510aBZZ2Wy6IlsCZGjW/aedE68L1Kt+lH5vgrV67sjRiomqWG5czMtH5jl/BWwDGrxl5bSFeO2VYHcsgSpkxd8vty7zCpJea6GTazsJ/rZ5Np6szQpXxk47HZkDG0da8NmqQE2X0t6xrcWKN+AH03ddEnGeo0amPIIQ8KD0nRnVFFP/kS2a7ohqmizUkc9hrvO0ZuFXZi5FC/MwO5BoyXbkLd49o95uu4jqGfsg4DWcgtMsqOl9CIiaLf1HyARdqYSo3V0s9DXddS7yeJAdsSc6INQj5OGibEI+XYFDb5pAyLSlfmF0fUuf51QFTr1gvZd0INPuXjDRCjg3s8VF7K2lTQB01SWad5zatr7aQE7oFRRVHjJis+WKHy+OoZof7555+zGGh4igkEuPndV12OTeeUG1aSB4lyIry+B5Ey/Pjjj16Lk+MVGzz3mPzNBAx3hhq/Yf0j2qGHmDL2G3+Ec+F1uArqwjoX+Wza8VesB/JOFuvzwIED2fLly+d8x/Eog0vIfWMhZIthQalHxCzkYvANrwTf9StCnSCodv0wMriGNnzQd4+7ZfUd1yIe+s7x6tWryXT2WdbppDr18ge1UWdFSsuoOg58nSZHjx71rpvf5N6yWydLFb5OPXep6jijjkIdU6Ftyzp8V6xYUVnv7Ne37RNPPNGrj36hE6/uvUK56cw6depUr2OrKb66jLmWx44d85YrF73K8nBv+bYNdRyWXb/YDjffeVKHVWUN3W/FjuhRkmSnXrFF7yKj6DQITZUODfMapNsixuLEKsGS8lnCdcOvsq+TJ09WWjqUyTdRAyusjQiD7LuupW1vDLhOnnrqqZ7PeZjhZ333KvW4f//+SusdN40vOFXstH0DizgmzZkvi5Bd+6qyhhJGpDhTNSlBDnWQdAlunGH7kn2CUjX2MjRJpJ8blOPFihLr+gSSh65OB+Pu3bujXzspm+/+Im50G7D/I0eONH4N5jrySo4bYdDCHEoEQX3GulK4fr5zrVP22IiDvmtU59pjgHRhpmpynXoISdfx+fQGia+DoioYDb8XxYkbtJ/RFjwgdQhNLY61WHkYqyYNuHC+vvXbfCipV6z/foTZOtoYyjeo+8hXx3XrE3z3WWx9btiwIbqOfOWtO9HHZ4TUHRE0aJIT5FdeeSXrOtaDP4zXIY7lu6mqblbfzDrox+VS9wEJuU5iH5ImjTciUITr1Oa1QmQQKjqNLl261LMCy3r9Q9gojUHcR76Gt4nLMFSfMQ1J7P0SmuVXt8HzrZ9aQozkpk6vWrUqmw/wMOETjPFv9oNvqnSs5YFoFN0rlLvuVGqwqap1oRe/WIbYiQnFEQMx+BohYLpu6Ld+oIws9jbAudp08pgUTwhb3vmUffXVV1mb+AJ5NZlaHqozyl11P8Q2UL4GietVdzyxbz91UmwNg+QE2ea3z4foVmbhhIbktIHv9XBsbCzKj+e7Gal3fMl1I5VNTExkTfA9tLGJCpoIcqihGdb9Zr5MV6C5VmXXi87WtpMJ+M636TA8rmHRIm4zcqNvX5S/DT+7BDkC/FipDtyui80KG0RG4VDHDCLdj1+UbesKctPwoz6BHPRD4hOQUWECzb2BuygkMoiykgm0j0ZZRODzS3Udm57a9j4HwTDj77ZpqcWSmlUENBJ0BPbb0Sm6TZIWslkN8y0GbNs59wb5kPKGUmdcbdNXVJ84xlrbTY+ZsjuMOvcNP0yxETF8bxuDjktDhy4N2Hwj2XjIiNd8E2Sm9raFL7Flm1D3dQTZgivV7Qz09fbH7qPJkKXQsL5Uxr9TDu794ttP29eaERXFfTapz1C52qxP3+gPGuPOxDiuQbKCjM9179698yZ1TdtBso8ePfrAd6EZSVUg7kWfPdZ33Y4kxK6un9MXtjR2tEOTMdOhMKlNRlhY/0CRQXTiti0+vk7YUddnCF9ZmxoAqZOsIFPR+NNSj18aS91OsjIsK0YRLPAmQsDD7utErduRxD7qrB/qlIwdX2yZSOqIlc/v3nQyEr5uX/n7zebts1TbdgH4Rqg0yR7jm0HX9uQuG1JZrGs6n+dbNu6kw28iYvOhBQzls2tKyHfc9BiUzycgdfPt2fCsWJjR6KOOmNWJDhia1t603kITW/qZPs+2PkGua3FWvVlyzr5nq44BhEDGxOBugzbyQVp53SU1t2jSgmxWctepO6W4Ct9D0GTmkovPquGhrnvDxk4bD4VErPsw0wjEiEhZ7OR+GsvQtk2mzyPEoTLWHXlU5Q/m2fJdc95yYoTOAsX7GMTwPN/5W2jVWJhIUlxSi1OdfID6rlvJ3Eh14wOUEYqm9c4772T9EGr46g6tM79qaDtLvxN6kJrEJmZfZcHxLT1RqAHopyHzxQQBi5EcE7SfOuEcQtkzqhK0+jq9ENYqn/CHH37o/Z7GpGwegMXDHkR9hvAFB4KYbDPUL6EMim+WlHPTpk1ZSiQVoD4EN0fdbASp0HYQ7FAQ/zaO4wsi7gsa7wtQD0U/n2V75tMyUNMJFBrCxcMcGsrkK5vPr0gDaK/35msvGzLWRr3hy6zKPkI94Lelg8rqEsGsqpOYMvJshAS02JlcrN+ybe362exZMwZCLjMLq+orq+/6UZY6b0SWr9HnjrH4Ia7Vz0gM6phM1r76JcZIKm/gSQaoL6OLGanbznAMvkDbZZl565A/mN7zIJC5iy9APeWqClxftrB9WZBy3/WnXP3cF21mhg4FwO93iSljbL03CR4fu5CpmszfIULXry6hwPh1F4LwpwRl6lTWaYYSdcl1USc2cCy09m34XUOE9hPbeWJTgOtSZllVwX3RZLtQwPqmtJEKyoURHGUz91zc2BhNIABWP9vb9WsSW6QuuP/61QLbR4p0RpC56LHBrFOAG7RtfJHdoK1OlNCogTpTqesGaacRuHjxYmO3gYlBbKeXrd92Ywnssw0XCK/d1EmdhpZno+k5cd3ZvkkMZ7t+wxBjA0ElrGnd+97G6acqxpDsOGQfXAj8bakHHuLmHkTHhvnJit+1eSzGMvvGvNaZ9GG+PITchnG5PjzKi4AyQqGNxoT9EZ7SIqdxPHeUAdYmHV+WkXiQsTIoC6JsZbGx0jHb9VsnCDLnZ5N63KnliG6VaLItiyWi9YUHtbqkjHU68Div4n3Vz9hqa1hD19xdj3vRMlGnTic69Vyw1IgznFqkf6OsY2q+4OvUMyEKwYPNtWvaeDTpFEIIEaJBByuqgnuVstjsMsNSliGUg2jA28Cum5H6dOVip3JXsE69TlnIwA2Mzys07GaUdM2tMkwQxWELYyoPpAWp7yKjuG790CUR9tEZH7JLP51ALtxobb3yW5m6dPMKIdKicxayYQJYx1JGLLdv397zJfleE80PVTfAu4UC7HrrLIQYLZ0VZEAA6W1lokTZjDIEM6ZDx14tWc+m2pZ1yrAvpkXPh+ndQojR02lBBnzKWKf0MFvPMJ0Q9OCawDaNgGadczY7yYTZhoch9HJRCCHaovOCbCCgWKqDsFZD8+iFEKJNOtmpJ4QQ85F5YyGL4UGwmeJMxEG7bvbv3//AbMGuDiUTIoQEWdQmNMV6kLSZEkiIVJHLQgghEkGCLIQQiSBBFkKIRJAgCyFEIkiQhRAiESTIQgiRCOPT09NTmRBCiJGCFs8KcmqxhYUQYiFgE57Gx8enxvmH/5SlIRdCCDEYSI8Gf/zxx+T4/fv3L/MfctUJIYQYLpb7cPHixZfHb9++PZn/PZlqjjohhJjPzOSKnMy9FFO9URZjY2PfHTt2LBNCCDFciLWea/A5/u4Jcu62+ALHcjGrrxBCiMGB5s4MqPiaf3qCnLstzuUfUwcPHsyEEEIMh5nUc5M3b978F3/MTgzJTeZ/njlzRsPfhBBiCKC1CPL09PSX9t2sID/yyCOf5R9TO3fuzIQQQgwWkijnTObLF/bdQ/ZH7ra4/fDDD//f9evX15OJ4dlnn82EEEK0D5Yxgjw+Pv5ft27dOmffjxVXXLJkybePP/742kuXLvUShwohhGgPXBXr16/n81wuxq+6vz0QXCj3Z/z1xo0bk9u2bXsgh5kQQojmMCN6Rown0dri7w8IMhNF7t279/qVK1em1q1bJ1EWQogWcMR4Co2dmZQ3B2/4zbt3717ON3gVUV65cqVGXgghRB+YmwJNRVvRWN96D4V2cP/+/f8dGxv75rffflt/5syZZaR5V9p1IYSox+nTp7PNmzf33BS5GP9nSIzhobIdIcqLFi36OndbvJTvdAKVR5QRZyGEEGHQS/riPv30097ku9xn/PqdO3d+LNtmLItk8eLFb+YW89/zPyd27NiRsaxZsyYTQgjxJ0yHPnToUM8yziGu8Ue3bt36LGbbaEGGXJQn8g+E+S/55wTD4lavXt0T5qefflrWsxBiQYEVTGcd4YuJa3zixAmLLT+VW8T/zDXzs6kaweZrCbLL0qVLN+cfm/ODvpJ/TmRCCLGwmSRqW+7q/XImPlBtGguyCz1+eQFeyv+cyAu0jCUTQoh5DOnvennwxsenSPThG8ZWl/8HvtqLVOb6U0AAAAAASUVORK5CYII="
+                        width="175" height="65" /></a><a href="https://coinswitch.onelink.me/Mlip/yv0w9vew"
+                      class="Home_storeCtaWrapper_link__7eFWz"><img alt="google_play_download"
+                        src="data:image/png;base64,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"
+                        width="175" height="65" /></a></div>
+                </div>
+                <div class="Home_img_wrapper___bzCL"><img alt="cs_bg_logo"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAzNCIgaGVpZ2h0PSIxMDM0IiB2aWV3Qm94PSIwIDAgMTAzNCAxMDM0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBvcGFjaXR5PSIwLjIiPgo8cGF0aCBkPSJNNDg0LjAxNSA1MjguMTc5TDMxMy4zMzYgMjQ3LjIyOUMxNTguMTcxIDM0MS40OTMgMTA4LjgwMSA1NDMuNjkzIDIwMy4wNjUgNjk4Ljg1OEMyOTcuMzI5IDg1NC4wMjQgNDk5LjUyOSA5MDMuMzk0IDY1NC42OTQgODA5LjEzTDQ4NC4wMTUgNTI4LjE3OVoiIGZpbGw9IiM0OTRCNTciLz4KPHBhdGggZD0iTTM1Mi43MDIgMjIzLjI5OUM0NDEuMDQgMzY4LjcwOSA2MzAuNDQgNDE0Ljg1NiA3NzUuOTIgMzI2LjYzM0w2MTUuOTc4IDYzLjM1N0wzNTIuNzAyIDIyMy4yOTlaIiBmaWxsPSIjNDk0QjU3Ii8+CjxwYXRoIGQ9Ik05MDMuMzU5IDQ4MC44MDZDODU1LjU3MiA0MDIuMTQ2IDc1My4wNjcgMzc3LjExOSA2NzQuNDA4IDQyNC45MDVDNTk1Ljc0OCA0NzIuNjkxIDU3MC43MiA1NzUuMTk2IDYxOC41MDYgNjUzLjg1NkM2NjYuMjkzIDczMi41MTYgNzY4Ljc5NyA3NTcuNTQ0IDg0Ny40NTcgNzA5Ljc1N0M5MjYuMTE3IDY2MS45NzEgOTUxLjE0NSA1NTkuNDY2IDkwMy4zNTkgNDgwLjgwNloiIGZpbGw9IiM0OTRCNTciLz4KPC9nPgo8L3N2Zz4K"
+                    width="850" height="850" class="Home_bg__6qLiw Home_bg_logo__a1u_t" /><img alt="phone_app"
+                    src="./static/phone-app.c4b6edd8-315b5fa3e7d3d687e1a0a50bbacf81ed.png" width="457" height="743"
+                    class="Home_home_content_imgDesktop__GVuhE Home_slowFloat__bKSnW" />
+                    <img alt="phone_app_mob"
+                    src="./static/phone-app-mob.620c83f6-cedd8d741a8425252ae5ceb6d9e7f2e2.png" width="568" height="568"
+                    class="Home_home_content_imgMob__Mc4qb Home_slowFloat__bKSnW" /></div>
+              </div>
+            </main> 
+             <section class="Home_cs_pro__NE12O" >
+            
+              
+              
+              
+              
+              
+              <img alt="bg_grid"
+                src="./static/grid-grey4.4e944d1b-ff7687a18bf038f0b7e40823d3f34c83.svg " width="1728" height="700"
+                class="Home_bg__6qLiw Home_bg_grid__iqpY2" />
+              <div class="Home_width_wrapper__752pr"><img alt="logo"
+                  src="./static/cs_pro_logo-ab1a4469e8c640323c1867766dd26359.png" width="300" style="margin-top:-36px" />
+                <h2 class="Home_cs_pro_heading__QbSXZ">
+                   
+
+
+
+
+
+                  A game-changing, advanced trading platform</h2>
+                <ul class="Home_cs_pro_highlights___ORqg">
+                  <li class="Home_cs_pro_highlights_item__aO93g"><img alt="bullet_point_grey"
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABcSURBVHgBdY5RDYAwDER3KEDFkqnCAigAFMAcgKutFQEKWlq+yBLe18td0h6CwcyziIzuAI4Y4wQi2lT1DT+sqLVeJn1T3F34wYvchnb6hEspZbeng7uNyCml5QEZ6R+9QdL21gAAAABJRU5ErkJggg=="
+                      width="6" height="6" class="Home_cs_pro_highlights_item_icon__F7w3_" />Lowest Commissions</li>
+                  <li class="Home_cs_pro_highlights_item__aO93g"><img alt="bullet_point_grey"
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABcSURBVHgBdY5RDYAwDER3KEDFkqnCAigAFMAcgKutFQEKWlq+yBLe18td0h6CwcyziIzuAI4Y4wQi2lT1DT+sqLVeJn1T3F34wYvchnb6hEspZbeng7uNyCml5QEZ6R+9QdL21gAAAABJRU5ErkJggg=="
+                      width="6" height="6" class="Home_cs_pro_highlights_item_icon__F7w3_" />Multiple Exchanges, One
+                    Account</li>
+                  <li class="Home_cs_pro_highlights_item__aO93g"><img alt="bullet_point_grey"
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABcSURBVHgBdY5RDYAwDER3KEDFkqnCAigAFMAcgKutFQEKWlq+yBLe18td0h6CwcyziIzuAI4Y4wQi2lT1DT+sqLVeJn1T3F34wYvchnb6hEspZbeng7uNyCml5QEZ6R+9QdL21gAAAABJRU5ErkJggg=="
+                      width="6" height="6" class="Home_cs_pro_highlights_item_icon__F7w3_" />Rupee-Powered</li>
+                </ul>
+                <div class="Button_btn__R8YYU Button_btn_gold__mSats Home_cs_pro_btn__lIAco" id="1st_fold_pro"><a
+                    class="Button_btn_link__UrmfQ" target="_blank"
+                    href="https://coinswitch.co/pro/trade?utm_source=first_fold_home" rel="noreferrer">Go To CoinSwitch
+                    PRO</a></div><img alt="cs_pro_img" src="./static/cs-pro-banner-db807fb0866f00451ab64fb9b31f3bdb.png"
+                  width="1025" height="612" class="Home_cs_pro_img__8XnSO" />
+              </div>
+            </section>
+
+             
+
+
+            <script>
+              ScrollReveal({
+                  //  reset: true,
+                   distance:'60px',
+                   duration:2500,
+                   delay:400
+                  });
+                 ScrollReveal().reveal('.Home_img_wrapper___bzCL ', { delay: 100 ,origin:'left'});
+                  ScrollReveal().reveal('.sec-01 .image , .info ' , { delay: 600 ,origin:'bottom'});
+                  ScrollReveal().reveal('.Home_width_wrapper__752pr Home_home_content__NcSjo ' , { delay: 700 ,origin:'right'});
+                  ScrollReveal().reveal('.media-icons i ' , { delay: 500 ,origin:'bottom',interval:200});
+                  ScrollReveal().reveal('.sec-02  .image , .sec-02  .image' , { delay: 500 ,origin:'top'});
+                  ScrollReveal().reveal(' .media-info li , .image' , { delay: 500 ,origin:'left', interval:200});
+      
+                  
+                  
+          </script>
+           <style>
+          .Home_img_wrapper___bzCL{
+            animation: slide_left 0.5s linear forwards;
+            animation-delay: 0.2s;
+
+          }
+          @keyframes slide_left{
+            0%{
+              transform: translateX(-100px);
+              opacity: 0;
+            }
+            100%{
+              transform: translateX(0px);
+              opacity: 1;
+            }
+          }
+          .Home_width_wrapper__752pr Home_home_content__NcSjo{
+            animation: slide_right 0.5s linear forwards;
+            animation-delay: 0.2s;
+
+          }
+          @keyframes slide_right{
+            0%{
+              transform: translateX(-100px);
+              opacity: 0;
+            }
+            100%{
+              transform: translateX(0px);
+              opacity: 1;
+            }
+          }
+           </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <section class="Home_support__ZDzXm"><img
+                 width="1728" height="700"
+                class="Home_bg__6qLiw Home_bg_grid__iqpY2 Home_bg_grid_desktop__sqqX5" /><img alt="bg_grid"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYwIiBoZWlnaHQ9IjQxOCIgdmlld0JveD0iMCAwIDM2MCA0MTgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxtYXNrIGlkPSJtYXNrMF8xNzU5XzEzMjQyIiBzdHlsZT0ibWFzay10eXBlOmFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMzYwIiBoZWlnaHQ9IjQxOCI+CjxyZWN0IHdpZHRoPSIzNjAiIGhlaWdodD0iNDE4IiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMTc1OV8xMzI0MikiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzE3NTlfMTMyNDIpIj4KPG1hc2sgaWQ9Im1hc2sxXzE3NTlfMTMyNDIiIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9Ii0xIiB3aWR0aD0iMzYwIiBoZWlnaHQ9IjY4MyI+CjxwYXRoIGQ9Ik0wIDMxQzAgMTMuMzI2OSAxNC4zMjY5IC0xIDMyIC0xSDMyOEMzNDUuNjczIC0xIDM2MCAxMy4zMjY5IDM2MCAzMVY2NTBDMzYwIDY2Ny42NzMgMzQ1LjY3MyA2ODIgMzI4IDY4MkgzMkMxNC4zMjY5IDY4MiAwIDY2Ny42NzMgMCA2NTBWMzFaIiBmaWxsPSJ1cmwoI3BhaW50MV9saW5lYXJfMTc1OV8xMzI0MikiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2sxXzE3NTlfMTMyNDIpIj4KPHJlY3QgeD0iNCIgeT0iLTEzNyIgd2lkdGg9IjEiIGhlaWdodD0iODI0IiBmaWxsPSIjMzIzNTQyIi8+CjxyZWN0IHg9IjU1IiB5PSItMTM3IiB3aWR0aD0iMSIgaGVpZ2h0PSI4MjQiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iMTA1IiB5PSItMTM3IiB3aWR0aD0iMSIgaGVpZ2h0PSI4MjQiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iMTU2IiB5PSItMTM3IiB3aWR0aD0iMSIgaGVpZ2h0PSI4MjQiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iMjA3IiB5PSItMTM3IiB3aWR0aD0iMSIgaGVpZ2h0PSI4MjQiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iMjA3IiB5PSItMTM3IiB3aWR0aD0iMSIgaGVpZ2h0PSI4MjQiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iMjU3IiB5PSItMTM3IiB3aWR0aD0iMSIgaGVpZ2h0PSI4MjQiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iMzMzIiB5PSItMTM3IiB3aWR0aD0iMSIgaGVpZ2h0PSI4MjQiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iMjkiIHk9Ii0xMzciIHdpZHRoPSIxIiBoZWlnaHQ9IjgyNCIgZmlsbD0iIzMyMzU0MiIvPgo8cmVjdCB4PSI4MCIgeT0iLTEzNyIgd2lkdGg9IjEiIGhlaWdodD0iODI0IiBmaWxsPSIjMzIzNTQyIi8+CjxyZWN0IHg9IjEzMSIgeT0iLTEzNyIgd2lkdGg9IjEiIGhlaWdodD0iODI0IiBmaWxsPSIjMzIzNTQyIi8+CjxyZWN0IHg9IjE4MSIgeT0iLTEzNyIgd2lkdGg9IjEiIGhlaWdodD0iODI0IiBmaWxsPSIjMzIzNTQyIi8+CjxyZWN0IHg9IjIzMiIgeT0iLTEzNyIgd2lkdGg9IjEiIGhlaWdodD0iODI0IiBmaWxsPSIjMzIzNTQyIi8+CjxyZWN0IHg9IjMwOCIgeT0iLTEzNyIgd2lkdGg9IjEiIGhlaWdodD0iODI0IiBmaWxsPSIjMzIzNTQyIi8+CjxyZWN0IHg9IjI4MyIgeT0iLTEzNyIgd2lkdGg9IjEiIGhlaWdodD0iODI0IiBmaWxsPSIjMzIzNTQyIi8+CjxyZWN0IHg9IjM1OCIgeT0iLTEzNyIgd2lkdGg9IjEiIGhlaWdodD0iODI0IiBmaWxsPSIjMzIzNTQyIi8+CjxyZWN0IHg9IjU2OCIgeT0iMjAiIHdpZHRoPSIxLjAwMDA0IiBoZWlnaHQ9IjgyNCIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgNTY4IDIwKSIgZmlsbD0iIzMyMzU0MiIvPgo8cmVjdCB4PSI1NjgiIHk9IjcyIiB3aWR0aD0iMS4wMDAwNCIgaGVpZ2h0PSI4MjQiIHRyYW5zZm9ybT0icm90YXRlKDkwIDU2OCA3MikiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iNTY4IiB5PSIxMjIiIHdpZHRoPSIxLjAwMDA0IiBoZWlnaHQ9IjgyNCIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgNTY4IDEyMikiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iNTY4IiB5PSIxNzMiIHdpZHRoPSIxLjAwMDA0IiBoZWlnaHQ9IjgyNCIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgNTY4IDE3MykiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iNTY4IiB5PSIyMjMiIHdpZHRoPSIxLjAwMDA0IiBoZWlnaHQ9IjgyNCIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgNTY4IDIyMykiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iNTY4IiB5PSIyNzQiIHdpZHRoPSIxLjAwMDA0IiBoZWlnaHQ9IjgyNCIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgNTY4IDI3NCkiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iNTY4IiB5PSIzMjUiIHdpZHRoPSIxLjAwMDA0IiBoZWlnaHQ9IjgyNCIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgNTY4IDMyNSkiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iNTY4IiB5PSIzMjUiIHdpZHRoPSIxLjAwMDA0IiBoZWlnaHQ9IjgyNCIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgNTY4IDMyNSkiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iNTY4IiB5PSIzNzUiIHdpZHRoPSIxLjAwMDA0IiBoZWlnaHQ9IjgyNCIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgNTY4IDM3NSkiIGZpbGw9IiMzMjM1NDIiLz4KPHJlY3QgeD0iNTY4IiB5PSI0NSIgd2lkdGg9IjEuMDAwMDQiIGhlaWdodD0iODI0IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA1NjggNDUpIiBmaWxsPSIjMzIzNTQyIi8+CjxyZWN0IHg9IjU2OCIgeT0iOTciIHdpZHRoPSIxLjAwMDA0IiBoZWlnaHQ9IjgyNCIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgNTY4IDk3KSIgZmlsbD0iIzMyMzU0MiIvPgo8cmVjdCB4PSI1NjgiIHk9IjE0NyIgd2lkdGg9IjEuMDAwMDQiIGhlaWdodD0iODI0IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA1NjggMTQ3KSIgZmlsbD0iIzMyMzU0MiIvPgo8cmVjdCB4PSI1NjgiIHk9IjE5OCIgd2lkdGg9IjEuMDAwMDQiIGhlaWdodD0iODI0IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA1NjggMTk4KSIgZmlsbD0iIzMyMzU0MiIvPgo8cmVjdCB4PSI1NjgiIHk9IjI0OSIgd2lkdGg9IjEuMDAwMDQiIGhlaWdodD0iODI0IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA1NjggMjQ5KSIgZmlsbD0iIzMyMzU0MiIvPgo8cmVjdCB4PSI1NjgiIHk9IjI5OSIgd2lkdGg9IjEuMDAwMDQiIGhlaWdodD0iODI0IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA1NjggMjk5KSIgZmlsbD0iIzMyMzU0MiIvPgo8cmVjdCB4PSI1NjgiIHk9IjM1MCIgd2lkdGg9IjEuMDAwMDQiIGhlaWdodD0iODI0IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA1NjggMzUwKSIgZmlsbD0iIzMyMzU0MiIvPgo8cmVjdCB4PSI1NjgiIHk9IjQwMSIgd2lkdGg9IjEuMDAwMDQiIGhlaWdodD0iODI0IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA1NjggNDAxKSIgZmlsbD0iIzMyMzU0MiIvPgo8L2c+CjwvZz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhcl8xNzU5XzEzMjQyIiB4MT0iMTgwIiB5MT0iMCIgeDI9IjE4MCIgeTI9IjQxOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjMTIxMzE5IiBzdG9wLW9wYWNpdHk9IjAiLz4KPHN0b3Agb2Zmc2V0PSIwLjU3MjkxNyIgc3RvcC1jb2xvcj0iIzEyMTMxOSIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxMjEzMTkiIHN0b3Atb3BhY2l0eT0iMCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MV9saW5lYXJfMTc1OV8xMzI0MiIgeDE9IjE4MCIgeTE9Ii0xIiB4Mj0iMTgwIiB5Mj0iNjgyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIG9mZnNldD0iMC45NzM5NTgiIHN0b3AtY29sb3I9IiM1MTRFRDgiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNTE0RUQ4IiBzdG9wLW9wYWNpdHk9IjAiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K"
+                width="1728" height="700" class="Home_bg__6qLiw Home_bg_grid__iqpY2 Home_bg_grid_mob__RVraK" />
+              <div class="Home_width_wrapper__752pr">
+                <div class="Home_support_cs__6IzN0">
+                  <h2 class="Home_support_cs_title__EzBhK">24x7 Customer <br />Support </h2>
+                  <p class="Home_support_cs_smalltext__lSSvT">Email Us</p>
+                  <p class="Home_support_cs_text__f_z38"><a
+                      href="mailto:support@coinswitch.co">support@coinswitch.co</a></p>
+                  <p class="Home_support_cs_smalltext__lSSvT">Raise a ticket</p>
+                  <p class="Home_support_cs_text__f_z38"><a
+                      href="https://cs-india-support.coinswitch.co/hc/en-us/requests/new">Click Here</a></p><img
+                    alt="support_img" src="./static/support-img.787b38a1-9d15385322973b977e892e9aecfe3476.png"
+                    width="150" height="157" class="Home_support_cs_img__Y4zX4" />
+                </div> 
+                <div class="Home_support_faq__EyjRS">
+                  <h2 class="Home_support_faq_title__HTRKw">FAQs</h2>
+                  <div class="Home_support_faq_list__58Rjy">
+                    <div class="Home_support_faq_list_item__h4NmL Home_support_faq_list_item_open__IpEQE">
+                      <p class="Home_support_faq_list_item_question__g0Vlo">1
+                        What is crypto?<img
+                          alt="chevron"
+                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDFMNyA3TDEzIDEiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                          width="12" height="6" class="Home_support_faq_list_item_icon__QAUYj" /></p>
+                      <p class="Home_support_faq_list_item_answer__P0QLI">Cryptos are decentralised digital assets
+                        operating on blockchain technology. There are more than 5000 crypto out there, Bitcoin being the
+                        first-ever crypto launched.</p>
+                    </div>
+                  <div class="Home_support_faq_list_item__h4NmL "> 
+                      <p class="Home_support_faq_list_item_question__g0Vlo"> 
+                        s crypto legal in
+                        India?<img alt="chevron"
+                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDFMNyA3TDEzIDEiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                          width="12" height="6" class="Home_support_faq_list_item_icon__QAUYj" /></p>
+                      <p class="Home_support_faq_list_item_answer__P0QLI">No law in India makes buying or selling
+                        cryptos illegal.</p>
+                    </div> 
+                     <div class="Home_support_faq_list_item__h4NmL ">
+                      <p class="Home_support_faq_list_item_question__g0Vlo">  
+                        What is the future of
+                        crypto trading in India?<img alt="chevron"
+                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDFMNyA3TDEzIDEiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                          width="12" height="6" class="Home_support_faq_list_item_icon__QAUYj" /></p>
+                      <p class="Home_support_faq_list_item_answer__P0QLI">Since 2020, Crores of Indians have dipped
+                        their toes into cryptos, and with the number going up every day, India looks exciting for the
+                        crypto revolution. The government is also actively trying to set up a regulatory framework for
+                        its smooth functioning, the recent MCA amendment being the first step.</p>
+                    </div> 
+                     <div class="Home_support_faq_list_item__h4NmL ">
+                       <p class="Home_support_faq_list_item_question__g0Vlo">  ow to buy crypto in
+                        India?<img alt="chevron"
+                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDFMNyA3TDEzIDEiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                          width="12" height="6" class="Home_support_faq_list_item_icon__QAUYj" /></p>
+                      <p class="Home_support_faq_list_item_answer__P0QLI">CoinSwitch has simplified cryptos for Indians,
+                        you can download our Android and iOS app to begin trading in crypto with just ₹100</p>
+                    </div>
+                   <div class="Home_support_faq_list_item__h4NmL ">
+                      <p class="Home_support_faq_list_item_question__g0Vlo">5 
+                       
+                        Why CoinSwitch is the
+                        best crypto trading platform in India?<img alt="chevron"
+                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDFMNyA3TDEzIDEiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                          width="12" height="6" class="Home_support_faq_list_item_icon__QAUYj" /></p>
+                      <p class="Home_support_faq_list_item_answer__P0QLI">Unlike other crypto exchanges, CoinSwitch
+                        pools liquidity from leading crypto exchanges in India and globally to enable users to trade in
+                        cryptos at the best rate.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section> 
+            <section class="Home_download__0DCwT"><img 
+                 width="1728" height="700"
+                class="Home_bg__6qLiw Home_bg_grid__iqpY2" />
+              <div class="Home_width_wrapper__752pr">
+                <h2 class="Home_download_caption__z1oU_">Trusted by<span class="Home_download_caption_green__anxJH">
+                 1.9 crore+
+                   </span>Indians</h2>
+                <div class="Home_download_wrapper__dxCeL"><img alt="trust_img"
+                    src="./static/trust-img.2650d329-4a5ba66abbc71a003ae6a5919cfc48cb.png" width="734" height="624" />
+                  <div class="Home_download_contentCard__THhXX">
+                    <div>
+                      <h2 class="Home_download_contentCard_heading__aD5f8">Download <br /> CoinSwitch today<!-- -->
+                     </h2><a href="https://coinswitch-kuber.onelink.me/AaX7/cv7i4wac"
+                        class="Home_download_contentCard_link___WAsP"><img alt="app_store_download"
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWQAAACECAYAAACnKFEWAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAABrcSURBVHgB7Z09kBXVtsd7RlQgUEI10HmRGqBmYBUgJsKrAgoDIADregOxSq3yvgADsOpeq8AqpKzylhBA8pSPAJN3BQKMRAggRAwwHDDwZQ5aAg+Qef07d9a4p9m7e3efPufsnvn/qpoznNMfu3d3//fqtfdeayxrgcWLF0+Mj4+/dP/+/WVjY2O9JRNCiHnM9PT0FEv+52SugZencrI+GcsakhdgbS7Cf8kLtDb/70QmhBALm8ncGD2Xf3598+bNf2UNqCXIy3Lu3Lnzfi7Cf5v5b7Z9+/bsxRdfzF544YXs8ccfz5555plMCCEWAhjFV65cya5fv56dP38+u3DhQnbt2jV+Qpy/yL0GX96+fXsydn/RgrxkyZL3849/5MuyDRs2ZO+99162Zs2aTAghxJ8gzMePH+8tOZO5J+Gj33///YuYbSsFGf9wrvT/nf+5dvXq1dmRI0dkBQshRAVYyvv27TNhPpd7Fv5aZS2XCvLDDz/80qJFi/4nd01MHD58ONu4cWMmhBAiHgQZYc4FevLevXuv371793Jo3aAgz4jxt7lveNnJkydlFQshREOwltevX8/nVC7Kr4ZE2SvIrhifPXuW3rtMCCFEc27cuJGtW7eOTsCgKD8gyDM+429zi3ji4sWLEmMhhGgJR5Qnc5/yq0Wf8nhxAzrwEGNZxkII0S4MDcYFnH/aYIk5zBHk3Dp+M/9Yu3v3bvmMhRBiAKCtjFbLWbtkyZK/ub/NuizMVbFjx46JmZWFEEIMCDr5zp8/P/Xoo4/+h027nrWQmQadf0zs2bMnE0IIMVgYSpzD7OdZK3lWkHMH85u5dSxXhRBCDAG0llnPufa+b9/1BHnp0qWb848JBFkIIcRwIARFzjKCtfGHWcibUWvFphBCiOGB5jLyYsZl/G9Bzk3mV4hTIYQQYri88cYb2UwY42x82b8HG09IkIUQYvgQujhnopfo4/bt2y/xP3XmCSHE8Fm+fHnvk6xLuCwm+A9B5oUQQgwXmxFN6rtxy3+HY1kIIcRwMe8EOUnHlZBUCCFGT89CzoQQQiSBBFkIIRJBgiyEEIkgQRZCiESQIAshRCJIkIUQIhEkyEIIkQgSZCGESAQJck2+//777Nq1a5kQQrSNBLkCUl0dOnSol7r7qaeeyl5++eXs+PHjmRBCtM2iTHgxIWaZyT8ohBADRYLs4cqVK9m2bduCrgmFKm2XCxcuZMeOHevFhZ1JaTNydu7c2fvscgZ2O4cDBw4oeFhHGFu6dOk/pqen/37z5s1MZD13xAcffFBqFZ89e3bo6a5oHEgb7uPpp5+eFbMuNhbUOeJBkoRvvvkmS4H8ueh9pv5cmNHgu+52DlevXpURkThcq7GxsY9kITuYMFQxqtjRIYud77EyKf8nn3zSSwkj5j9c9+eff773twyq+YEEeYbz589HiTFW3Khf/7B4jBs3bvRcLPv27es9oG+//XamhLVCdBMJcpbNClkMO3bsyEZN8fUTd8XGjRt7I0FMnH2CzHliRZuljaW/YcOGOfs7ffp0bx80PO4++I7f7FjFfdJImf/X9mH7pmOU9ViHfbrbx0BjyT5pfNgH5Q5dB1xNJ06c6A1PhKpjunVi59D09T62nHY8++3gwYOz21DOmMaU47hvTDbyh+19BkOxbGXnWae+RcvgQ16yZMn0Quatt96apg6qlueee256cnJyehRwXCtHiO+++252ncuXL8/5LX/og+d06tSp2fXyzrXe91u2bJmzvdXRE088Mef7/MF9YH1bd+/evb39F4/5+eefz9mHHfO1116b8/0vv/zS+85X7hUrVkzn4vtAHfmOx7Jr164H6ovzfvLJJx9Y9+jRo5V1HVtO3z2TN5yzx/Edv1g/PkLnyT1guPurWtfgmsXWt2gP6hgtXvCC7Apd1cLNmkI5y7AHFZEzcmtxjjDxfx5GV2TtYePTJ7yuALgPMvszcTHc/W7durUnfGzD37YP9+EOCbLth2OzDuXm08pSXN+EjuNwPOqM9SlHsdz8ZmKI2FgZOaatH/tcWB1QLsQvtpwch+PZsSlH8XqEYBtXaDkeiyv+9hvnyb3LNmXlsuvA71Z/fNr6vkZNtIMEeYY61vEoiRVke9jdxsO+41xj1rcH0B5uO7YJhmvB2XeuRW51ym8uiIyJnc8qdwXCPd+ihRn6DfHwWX2uxW7YGwPnioXrYgIb81y4ZXHPqfibW67Q9XDrp/iGU3VsHyGL232TcoXfrnvoPGIaCtEME+QFP1OP0QkxMNStq5g/1ecHNN8qfsPid1Y39skIDnyK+BfBOhTxRfpGnhT9tuaPtG3L+OGHH3qfrF/0dfJ/fNlu2QDfq+t/xcdqvuEidg7UiWX9Nd59990sFisnZSqer9u5Sj0VsXMwKKeVpap+6kB/gItbRza800ICUAbKZXVnfmq+o0y5OGdicCzoTr3YuBQIUVfGcdoDZiLEQ2QPt+8cli9f3vu8fv367Hd0xtHRhEgjWLnFNKdzzDp8TOiLD3wb2HV57LHHvL8jEIice/04dzo0z5w5Ex1vxFcnda611TdjwX3Y9z6BLTYEgyLmOFY+Pm0onQ8aoFEN+1wILGhB/umnnyrXYaZWV3qYESGzxIrWVxXuQ8sDhwCb9clDaKKLKNOjjxjb73VHTcRQNbTQN3GHOCPUAWWlUeGcEFcaELOIB8Wvv/6axZYzRay++WRmX4hBNL7iTxa8hRyCB/nkyZO1hW2UYB2C+6rMA8biuhdcTFRdS9RcC1jILIjc7t27e7+Z+GKFmvgPYsyzWZa+V30wV4FdHysn51ec7efbR9n+XfdNbDl5lbdhYmXlTJWJiYneJ+cQGjonBo+ivRXAqtqzZ09v8kVXxNhib9hYVBNPw2buIdjuq7ONwYXiW4AJL9PIwRV46gWLkwZtUBNlzEqnvNbQGDau2S2XuVyKr+es57OO7fyIoVF0e9g5x8DxY8o56HupX5+zuaSgeB6cw9atW3vj3Nv0bYsHWdAWsomLdRIVJ0Okiuvj4wFxX4tpTIpTp+mksskaK1eu7L3OAxMo2JbzL26zatWq3ifbFDvWqCN8zDAofyLXhnNBHBEIxN+sdrPq+d0aA7PqWA/XBedok0R8DQbrmx+a+jQXB5a/+1YRg5WTOuH41E+xnIPog6C8Vk6uK/dvP8eiIafcnAcWP/VtdcgnjbYs5wEzX4a9MXTJxk0yZKg4lKkf2K+N4bTFjjMsysZLM86UIWO+IV/u9r7JBGwXmuxiQ7CKw7PcYVOxw8wMG/LljpMOjUMGhmwVy835+iZPcI2K61IGm+xQLA/nbeUp1oftJxZ3fG9VOX11YNg+yq6lC/t3J5f4Job4rm/oN18d2hjkNp8pMRcb9tbpaG82xTPUq44FxELLXtfyrdq3gZWCNblp06aBd/61EQ7UHZmARVXWA49VZH5RnysgdOyy7Xy/2Xeh/QHXg3X4Hb9tWbnNB8y1Z72y8gB1wjr8Zq6FsvMrI6acMfUaKmsI33Zl51B1fnYeUHWfiP6xaG+dE+SmgeO58Xid4+YK3YT9BqW3Y2jevxCiDp0UZFptggD1m9MOfyEWLWNwafktQHrsJJEqEGYmkigGrRAihs4JMh07xd7f1GFCSSoZMIQQ6dKpAPVYxViwXYOed/xwuDGEEKKK5Mchd1WMDaz6LpdfCDE8khbk+SJmH3/8cSaEEFUkK8h03HXNZ+yDUR1djhQnhBgeyQpyKMNyl2D2G3EVNNpCCBFDkoLs5n3rKkzNPXz4cCaEELEkOcqi664KLGKJsQAmGDETkKhvxLkozkpkwa1lswrFwiY5QbYwil0Gn3EKDxdvGr7GjSm9xRCVol24j6l7hDg067M4EYkZnoMKRCS6QXIuCwsH2VV4qFJ5oMj04abisQUhqBPzV8SD+BIKlT4Q6rnOFHzufSLP7dy5s/NGiWhGcoLc1vTlUZHKJBAeaAIjhSj7TTSDOif0Z7/ZSRBmBF2ivPBIymURm+MuVVKyjqsaNsZ3M7VbtAP3bZsiavuLiYmya9euB2I3y/XRTZIS5JgcdykziNxyTaly/fAA47boQkD+LlDmZqA/Yfv27b26RiQtqLxlM6Hx9G3Ld+y3yt/vCxGbknEg4knOQu4yqYgbD2eMjxjRliD3D/UYeiPBUiVji6+Tl5EV1oiHgmexX/avkK4Lg6R8yF12V1gOuBTw+Yd91hLWmXKk9U/obQSXEIIcM+KG9UJDJRULZeGQlCBbosou4mZtHjWW784FX2TRGkaM++2AEv4s1Ywtrht6lZmdPksYK1kN58JAWadbIhV/na9j1JKU+nzcsr76I+Rma9qfEHJNaJjiwmBBZ52ej5B+qggdSsDDTo+8i1lfddwtNvvMhe2LGahtPbfTytYrS6XlA+ErWok+N5EN9yNrsjsjblAZxUOWa9OJQZTRN3SSyTxGjGuPt03ferF1TgNQnF1oHZKU0bK1xxJz/SzDtXvtuG7FjOhF2I5rbsfgvNkv5Wtyr42UlLJOFzMAd2nZsmXLdAr4Mga7mYV9dezLjFyGm3XalmJmajI8u9mQfUtZxusivnK72+YPY29/ZcejbnyZsPuBzOO+Y9Wt0zr4rnHMwnZlkFU65rq517yf62cZsjmuZSr33SMh2L7qmje510aBZZ2Wy6IlsCZGjW/aedE68L1Kt+lH5vgrV67sjRiomqWG5czMtH5jl/BWwDGrxl5bSFeO2VYHcsgSpkxd8vty7zCpJea6GTazsJ/rZ5Np6szQpXxk47HZkDG0da8NmqQE2X0t6xrcWKN+AH03ddEnGeo0amPIIQ8KD0nRnVFFP/kS2a7ohqmizUkc9hrvO0ZuFXZi5FC/MwO5BoyXbkLd49o95uu4jqGfsg4DWcgtMsqOl9CIiaLf1HyARdqYSo3V0s9DXddS7yeJAdsSc6INQj5OGibEI+XYFDb5pAyLSlfmF0fUuf51QFTr1gvZd0INPuXjDRCjg3s8VF7K2lTQB01SWad5zatr7aQE7oFRRVHjJis+WKHy+OoZof7555+zGGh4igkEuPndV12OTeeUG1aSB4lyIry+B5Ey/Pjjj16Lk+MVGzz3mPzNBAx3hhq/Yf0j2qGHmDL2G3+Ec+F1uArqwjoX+Wza8VesB/JOFuvzwIED2fLly+d8x/Eog0vIfWMhZIthQalHxCzkYvANrwTf9StCnSCodv0wMriGNnzQd4+7ZfUd1yIe+s7x6tWryXT2WdbppDr18ge1UWdFSsuoOg58nSZHjx71rpvf5N6yWydLFb5OPXep6jijjkIdU6Ftyzp8V6xYUVnv7Ne37RNPPNGrj36hE6/uvUK56cw6depUr2OrKb66jLmWx44d85YrF73K8nBv+bYNdRyWXb/YDjffeVKHVWUN3W/FjuhRkmSnXrFF7yKj6DQITZUODfMapNsixuLEKsGS8lnCdcOvsq+TJ09WWjqUyTdRAyusjQiD7LuupW1vDLhOnnrqqZ7PeZjhZ333KvW4f//+SusdN40vOFXstH0DizgmzZkvi5Bd+6qyhhJGpDhTNSlBDnWQdAlunGH7kn2CUjX2MjRJpJ8blOPFihLr+gSSh65OB+Pu3bujXzspm+/+Im50G7D/I0eONH4N5jrySo4bYdDCHEoEQX3GulK4fr5zrVP22IiDvmtU59pjgHRhpmpynXoISdfx+fQGia+DoioYDb8XxYkbtJ/RFjwgdQhNLY61WHkYqyYNuHC+vvXbfCipV6z/foTZOtoYyjeo+8hXx3XrE3z3WWx9btiwIbqOfOWtO9HHZ4TUHRE0aJIT5FdeeSXrOtaDP4zXIY7lu6mqblbfzDrox+VS9wEJuU5iH5ImjTciUITr1Oa1QmQQKjqNLl261LMCy3r9Q9gojUHcR76Gt4nLMFSfMQ1J7P0SmuVXt8HzrZ9aQozkpk6vWrUqmw/wMOETjPFv9oNvqnSs5YFoFN0rlLvuVGqwqap1oRe/WIbYiQnFEQMx+BohYLpu6Ld+oIws9jbAudp08pgUTwhb3vmUffXVV1mb+AJ5NZlaHqozyl11P8Q2UL4GietVdzyxbz91UmwNg+QE2ea3z4foVmbhhIbktIHv9XBsbCzKj+e7Gal3fMl1I5VNTExkTfA9tLGJCpoIcqihGdb9Zr5MV6C5VmXXi87WtpMJ+M636TA8rmHRIm4zcqNvX5S/DT+7BDkC/FipDtyui80KG0RG4VDHDCLdj1+UbesKctPwoz6BHPRD4hOQUWECzb2BuygkMoiykgm0j0ZZRODzS3Udm57a9j4HwTDj77ZpqcWSmlUENBJ0BPbb0Sm6TZIWslkN8y0GbNs59wb5kPKGUmdcbdNXVJ84xlrbTY+ZsjuMOvcNP0yxETF8bxuDjktDhy4N2Hwj2XjIiNd8E2Sm9raFL7Flm1D3dQTZgivV7Qz09fbH7qPJkKXQsL5Uxr9TDu794ttP29eaERXFfTapz1C52qxP3+gPGuPOxDiuQbKCjM9179698yZ1TdtBso8ePfrAd6EZSVUg7kWfPdZ33Y4kxK6un9MXtjR2tEOTMdOhMKlNRlhY/0CRQXTiti0+vk7YUddnCF9ZmxoAqZOsIFPR+NNSj18aS91OsjIsK0YRLPAmQsDD7utErduRxD7qrB/qlIwdX2yZSOqIlc/v3nQyEr5uX/n7zebts1TbdgH4Rqg0yR7jm0HX9uQuG1JZrGs6n+dbNu6kw28iYvOhBQzls2tKyHfc9BiUzycgdfPt2fCsWJjR6KOOmNWJDhia1t603kITW/qZPs+2PkGua3FWvVlyzr5nq44BhEDGxOBugzbyQVp53SU1t2jSgmxWctepO6W4Ct9D0GTmkovPquGhrnvDxk4bD4VErPsw0wjEiEhZ7OR+GsvQtk2mzyPEoTLWHXlU5Q/m2fJdc95yYoTOAsX7GMTwPN/5W2jVWJhIUlxSi1OdfID6rlvJ3Eh14wOUEYqm9c4772T9EGr46g6tM79qaDtLvxN6kJrEJmZfZcHxLT1RqAHopyHzxQQBi5EcE7SfOuEcQtkzqhK0+jq9ENYqn/CHH37o/Z7GpGwegMXDHkR9hvAFB4KYbDPUL6EMim+WlHPTpk1ZSiQVoD4EN0fdbASp0HYQ7FAQ/zaO4wsi7gsa7wtQD0U/n2V75tMyUNMJFBrCxcMcGsrkK5vPr0gDaK/35msvGzLWRr3hy6zKPkI94Lelg8rqEsGsqpOYMvJshAS02JlcrN+ybe362exZMwZCLjMLq+orq+/6UZY6b0SWr9HnjrH4Ia7Vz0gM6phM1r76JcZIKm/gSQaoL6OLGanbznAMvkDbZZl565A/mN7zIJC5iy9APeWqClxftrB9WZBy3/WnXP3cF21mhg4FwO93iSljbL03CR4fu5CpmszfIULXry6hwPh1F4LwpwRl6lTWaYYSdcl1USc2cCy09m34XUOE9hPbeWJTgOtSZllVwX3RZLtQwPqmtJEKyoURHGUz91zc2BhNIABWP9vb9WsSW6QuuP/61QLbR4p0RpC56LHBrFOAG7RtfJHdoK1OlNCogTpTqesGaacRuHjxYmO3gYlBbKeXrd92Ywnssw0XCK/d1EmdhpZno+k5cd3ZvkkMZ7t+wxBjA0ElrGnd+97G6acqxpDsOGQfXAj8bakHHuLmHkTHhvnJit+1eSzGMvvGvNaZ9GG+PITchnG5PjzKi4AyQqGNxoT9EZ7SIqdxPHeUAdYmHV+WkXiQsTIoC6JsZbGx0jHb9VsnCDLnZ5N63KnliG6VaLItiyWi9YUHtbqkjHU68Div4n3Vz9hqa1hD19xdj3vRMlGnTic69Vyw1IgznFqkf6OsY2q+4OvUMyEKwYPNtWvaeDTpFEIIEaJBByuqgnuVstjsMsNSliGUg2jA28Cum5H6dOVip3JXsE69TlnIwA2Mzys07GaUdM2tMkwQxWELYyoPpAWp7yKjuG790CUR9tEZH7JLP51ALtxobb3yW5m6dPMKIdKicxayYQJYx1JGLLdv397zJfleE80PVTfAu4UC7HrrLIQYLZ0VZEAA6W1lokTZjDIEM6ZDx14tWc+m2pZ1yrAvpkXPh+ndQojR02lBBnzKWKf0MFvPMJ0Q9OCawDaNgGadczY7yYTZhoch9HJRCCHaovOCbCCgWKqDsFZD8+iFEKJNOtmpJ4QQ85F5YyGL4UGwmeJMxEG7bvbv3//AbMGuDiUTIoQEWdQmNMV6kLSZEkiIVJHLQgghEkGCLIQQiSBBFkKIRJAgCyFEIkiQhRAiESTIQgiRCOPT09NTmRBCiJGCFs8KcmqxhYUQYiFgE57Gx8enxvmH/5SlIRdCCDEYSI8Gf/zxx+T4/fv3L/MfctUJIYQYLpb7cPHixZfHb9++PZn/PZlqjjohhJjPzOSKnMy9FFO9URZjY2PfHTt2LBNCCDFciLWea/A5/u4Jcu62+ALHcjGrrxBCiMGB5s4MqPiaf3qCnLstzuUfUwcPHsyEEEIMh5nUc5M3b978F3/MTgzJTeZ/njlzRsPfhBBiCKC1CPL09PSX9t2sID/yyCOf5R9TO3fuzIQQQgwWkijnTObLF/bdQ/ZH7ra4/fDDD//f9evX15OJ4dlnn82EEEK0D5Yxgjw+Pv5ft27dOmffjxVXXLJkybePP/742kuXLvUShwohhGgPXBXr16/n81wuxq+6vz0QXCj3Z/z1xo0bk9u2bXsgh5kQQojmMCN6Rown0dri7w8IMhNF7t279/qVK1em1q1bJ1EWQogWcMR4Co2dmZQ3B2/4zbt3717ON3gVUV65cqVGXgghRB+YmwJNRVvRWN96D4V2cP/+/f8dGxv75rffflt/5syZZaR5V9p1IYSox+nTp7PNmzf33BS5GP9nSIzhobIdIcqLFi36OndbvJTvdAKVR5QRZyGEEGHQS/riPv30097ku9xn/PqdO3d+LNtmLItk8eLFb+YW89/zPyd27NiRsaxZsyYTQgjxJ0yHPnToUM8yziGu8Ue3bt36LGbbaEGGXJQn8g+E+S/55wTD4lavXt0T5qefflrWsxBiQYEVTGcd4YuJa3zixAmLLT+VW8T/zDXzs6kaweZrCbLL0qVLN+cfm/ODvpJ/TmRCCLGwmSRqW+7q/XImPlBtGguyCz1+eQFeyv+cyAu0jCUTQoh5DOnvennwxsenSPThG8ZWl/8HvtqLVOb6U0AAAAAASUVORK5CYII="
+                          width="175" height="65" /></a><a href="https://coinswitch.onelink.me/Mlip/yv0w9vew"
+                        class="Home_download_contentCard_link___WAsP"><img alt="google_play_download"
+                          src="data:image/png;base64,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"
+                          width="175" height="65" /></a><img alt="confetti_circle"
+                        src="data:image/png;base64,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"
+                        width="90" height="90"
+                        class="Home_download_contentCard_confetti__cVVhO Home_download_contentCard_confetti_circle__j4PHQ Home_floating__l9JVA" /><img
+                        alt="confetti_semicircle"
+                        src="data:image/png;base64,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"
+                        width="123" height="93"
+                        class="Home_download_contentCard_confetti__cVVhO Home_download_contentCard_confetti_semicircle__MmfHW Home_floating__l9JVA" />
+                    </div> 
+                   </div>
+                </div>
+              </div>
+            </section> 
+           <section class="readMore">
+              <div class="Home_width_wrapper__752pr">
+                <h2 id="readMoreSectionHeading" class="heading section-heading">
+                  <p class="text">Read more about CoinSwitch</p><img alt="chevron"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDFMNyA3TDEzIDEiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
+                    width="20" height="11" class="chevron" />
+                </h2> 
+                <div id="readMoreContent" class="content">
+                  <p class="text">CoinSwitch is India&#x27;s leading crypto exchange. Founded in 2017, we are one of the
+                    pioneers in the crypto space. We believe that money should be equal for all, and we make every
+                    effort to translate that belief into action. That&#x27;s why, at CoinSwitch, your needs are our top
+                    priority. Our team of dedicated and passionate people always strives to make your crypto journey
+                    smoother, and more enjoyable and more rewarding.</p>
+                  <h3 class="content-heading">Buy Bitcoin and other cryptocurrencies at India&#x27;s leading Crypto
+                    Exchange</h3>
+                   <p class="text">We know people like Bitcoin, but not everyone can afford it. So, at CoinSwitch, we
+                    help you
+                      <a href="https://coinswitch.co/coins/buy-bitcoin-in-india/">buy Bitcoin</a>, and a
+                    host of other cryptos, with as little as ₹100. And to ensure you&#x27;re never short of options,
+                    there are over 100 crypto assets listed on our exchange.</p>
+                  <p class="text">What&#x27;s more, you can buy any of these cryptos in the blink of an eye. Just open
+                    the app, visit the page reserved for the crypto of your choice, and simply place a buy order. No
+                    more waiting for order execution. And you&#x27;ll never need to waste time trying to find the latest
+                    price, thanks to our real-time updates.</p>
+                  <p class="text">The super user-friendly interface of our
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.coinswitch.kuber&amp;hl=en_IN&amp;gl=IN"
+                      class="strong-text">trading app</a> s another bonus. So you can find everything you need
+                    for your purchases—from fund transfers to charts—all on one screen.</p>
+                  <p class="text">To top it off, if you want to learn more about crypto before your big buy, there is
+                    our very accessible and informative crypto blog. Staying on top of the trading game is so much
+                    simpler with Switch. More bang out of your buck indeed!</p>
+                  <h3 class="content-heading">Trading Bitcoin and Crypto online in three simple steps</h3>
+                  <p class="text">CoinSwitch gets you started on your crypto journey in three simple steps.</p>
+                  <ol class="text-list"> 
+                  <li class="list-item">
+                      <p class="item-heading">Create an account on the app.</p>
+                      <p class="text">First things first, install the
+                       <a
+                          href="https://play.google.com/store/apps/details?id=com.coinswitch.kuber&amp;hl=en_IN&amp;gl=IN">Coinswitch
+                          app</a>. Next, create an account and complete the mandatory Know Your Customer (KYC)
+                        verification.</p>  
+                      
+
+                    </li> 
+                  
+                   <li class="list-item">
+                      <p class="item-heading">Link your bank account.</p>
+                      <p class="text">Once your account is functional, you can head over to the “Profile” section in the
+                        app to link your bank and CoinSwitch accounts. You can always add and edit account details as
+                        and when needed. Once your trading account is up and running, you&#x27;re all set to
+                         <a
+                          href="https://coinswitch.co/coins/">buy and sell crypto</a>.</p>
+                    </li>
+                    <li class="list-item">
+                      <p class="item-heading">Start trading.</p>
+                      <p class="text">At this stage, most of the heavy-lifting is done. Study the market well, and do
+                        plenty of research before you begin. When you&#x27;re ready, simply select your desired crypto,
+                        specify the amount you want to buy, and hit the “Buy” button. Selling is just as simple.</p> -->
+                     <p class="text">If timing the market isn&#x27;t your thing, you could opt for our -->
+                        
+                        <a
+                        href="https://coinswitch.co/crypto-sip/">crypto Systematic Investment Plan</a>  
+                          
+                          (SIP).
+                        The SIP option lets you automate the transfer of funds, so you don&#x27;t have to remember to
+                        transfer the amount each month.</p>
+                    </li> 
+                  </ol>
+             
+              <h3 class="content-heading">Why is CoinSwitch the best crypto trading platform in India?</h3>
+                  <p class="text">While we keep it simple, we also keep things fresh. Our website and app are highly
+                    interactive and you&#x27;ll always find plenty to learn. If that&#x27;s not enough to convince you
+                    that we are great at what we do, here are some other things:</p>
+                  <ol class="text-list">
+                    <li class="list-item">
+                      <p class="item-heading">Security</p>
+                      <p class="text">From initiating your transaction to storing your crypto on our platform, your
+                        safety is our top priority. While buying crypto with us, you will never have to worry about your
+                        data being compromised. And you won&#x27;t have to look elsewhere to find a reliable way to
+                        store your tokens.</p>
+                    </li>
+                    <li class="list-item">
+                      <p class="item-heading">Speed</p>
+                      <p class="text">Buying and selling crypto on CoinSwitch is fast and hassle-free. Our high
+                        liquidity ensures that the chances that you will find a buyer or seller is pretty high.</p>
+                    </li>
+                    <li class="list-item">
+                      <p class="item-heading">Fair listing process</p>
+                      <p class="text">Our extensive and carefully curated list comprises 100+ cryptocurrencies that are
+                        all tested for volatility, project solidarity, completion of bear and bull cycles, and other -->
+                        factors. The categories we use should help you navigate the -->
+                      
+                         <a
+                          href="https://coinswitch.co/coins/">list of crypto coins</a>. Besides, there is a SIP
+                        alternative for most of them.</p> 
+                    </li>
+                    <li class="list-item">
+                      <p class="item-heading">Riskometer</p>
+                      <p class="text">As volatility is an important characteristic of crypto and a key concern for many
+                        investors, the primary focus for us is to safeguard our users to the extent possible.
+                        That&#x27;s why we have a crypto Riskometer. Specially designed for the more volatile assets, it
+                        helps you take more informed decisions.</p>
+                  </li>
+                    <li class="list-item">
+                      <p class="item-heading">CoinSwitch Pro</p>
+                      <p class="text">At CoinSwitch, we believe that there is always scope to improve. That&#x27;s why 
+                        we came up with
+                        
+                      
+                         <a href="https://coinswitch.co/pro/trade">CoinSwitch Pro</a></p>
+                   <p class="text">The Pro version of our app is a multi-exchange crypto trading platform that lets 
+                        you buy and sell across three of India&#x27;s most well-known exchanges. It opens up arbitrage
+                        trading opportunities while offering access to advanced rupee-denominated charts and a lot more.
+                      </p>
+                    </li>
+                    <li class="list-item">
+                      <p class="item-heading">On-shore index</p>
+                      <p class="text">If you want the best trading experience, you need not look at the broader market
+                        anymore. Because CoinSwitch brings you India&#x27;s first onshore crypto index, CRE8. This
+                        amazing rupee-denominated index helps you track key crypto assets while eliminating the need to
+                        do those cumbersome conversions.</p>
+                    </li>
+                    <li class="list-item">
+                      <p class="item-heading">Knowledge base</p>
+                      <p class="text">Whether you want to learn the basics of crypto, gain a better understanding of
+                        some project, or simply try to upskill yourself, -->
+                     
+                         <a
+                           href="https://play.google.com/store/apps/details?id=com.coinswitch.kuber&amp;hl=en_IN&amp;gl=IN">CoinSwitch
+                          app</a>   
+                         
+                         and website will have something for you.</p>
+                    </li>
+                  </ol>
+                  <h3 class="content-heading">Things to consider while investing in cryptocurrency in India</h3>
+                  <p class="text">We would love to invite you to kickstart your crypto trading experience already, but
+                    we&#x27;ll never shy away from asking you to exercise caution. That&#x27;s why, before we close, we
+                    bring you a list of things to consider before investing:</p>
+                  <ol class="text-list">
+                    <li class="list-item">
+                      <p class="item-heading">Market volatility</p>
+                      <p class="text">The crypto market is volatile. An asset that seems to be moving steadily in one
+                        direction might quickly change course due to a tweet or a development. That&#x27;s why, before
+                        you pick a crypto to invest in, DYOR is important. Tracking historical data, using on-chain
+                        tools, and studying project sentiments via social activity are all part of your job as a trader.
+                      </p>
+                    </li>
+                    <li class="list-item">
+                      <p class="item-heading">Sentimental risks</p>
+                      <p class="text">Trading in crypto comes with its sentimental risks. Price drops due to news and
+                        sudden liquidity shortages due to whale activity are pretty common. Therefore, constantly
+                        tracking the market, news, and on-chain funds are key.</p>
+                    </li> 
+                   <li class="list-item">
+                      <p class="item-heading">Your long-term financial needs</p>
+                      <p class="text">In crypto, prices can change quickly. So you need to examine your current
+                        financial state, liabilities, account for emergencies, and other factors, before proceeding.
+                        Only invest what you can afford to lose—just in case the markets suddenly go belly up.</p>
+                    </li> 
+                    
+                  <li class="list-item">
+                      <p class="item-heading">The possibility of frauds</p>
+                      <p class="text">CoinSwitch will never ask you to invest, share account details, or send funds to
+                        unverified addresses. But the crypto space is full of fraudsters and scammers. So keep your eyes
+                        and ears open and stay cautious. Always run a background check on people who contact you. And
+                        reach out to our customer support if you have any questions.</p>
+                    </li>
+                  </ol>
+                 <p class="endquote">There are no shortcuts in life or money-making. You can only choose to cut short
+                    your day-to-day trading troubles. We hope you do. We hope you simplify your life by choosing to
+                    CoinSwitch today!</p>
+                  <div class="content-foot">
+                    <p class="heading strong-text">Check the live price</p>
+                    <ul class="live-price-links">
+                      <li class="list-item"><a href="https://coinswitch.co/coins/bitcoin/">Bitcoin Price</a></li>
+                      <li class="list-item"><a href="https://coinswitch.co/coins/ethereum/">Ethereum Price</a></li>
+                      <li class="list-item"><a href="https://coinswitch.co/coins/dogecoin/">Dogecoin Price</a></li>
+                      <li class="list-item"><a href="https://coinswitch.co/coins/shiba-inu/">Shiba Inu Price</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section> 
+
+           <div class="Footer_mobileDownloadFooter__XFIoz">
+              <div class="Button_btn__R8YYU"><a class="Button_btn_link__UrmfQ"
+                  href="https://coinswitch.onelink.me/Mlip/832c3f2">Download App Now</a></div>
+            </div>
+            <footer class="Footer_footer__Dhw_9">
+              <div class="Footer_width_wrapper__4VILQ">
+                <div class="Footer_footer_topContent__4I5A6">
+                  <div class="Footer_footer_topContent_half__mWNn6">
+                    <div class="Footer_footer_logo__CxFXo"><img alt="logo"
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMjIwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNNjYgMjIuNjcwN0M2NiAxNy43ODAzIDY5LjQxOTYgMTQuNDI1OCA3NC40ODQ3IDE0LjQyNThDNzYuODA1NiAxNC40MjU4IDc4LjgwNzkgMTUuMjI2NyA4MC41MiAxNi44NTY5TDc4LjMyNzUgMTkuMTg5Qzc3LjM1NzMgMTguMjI3OSA3NS45NzMzIDE3LjY4NjEgNzQuNTUxMyAxNy42ODYxQzcxLjY0NTMgMTcuNjg2MSA2OS42MTQ1IDE5LjczMDggNjkuNjE0NSAyMi42NzA3QzY5LjYxNDUgMjUuNjEwNyA3MS42MTY4IDI3LjY1NTQgNzQuNTUxMyAyNy42NTU0Qzc2LjEwMTcgMjcuNjU1NCA3Ny41MTkgMjcuMDgwNiA3OC40ODkyIDI2LjAyNTNMODAuNzE1IDI4LjQyMzRDNzguOTQxIDMwLjExOTUgNzYuOTcyIDMwLjkxNTcgNzQuNTE4IDMwLjkxNTdDNjkuMzU3NyAzMC45MjA0IDY2IDI3LjY2MDEgNjYgMjIuNjcwN1oiIGZpbGw9IiMxQjFFMkQiLz4KPHBhdGggZD0iTTk5LjY0NDUgMTAuMjM3OUM5OS42NDQ1IDguOTI4MTUgMTAwLjYxNSA4IDEwMS45MzcgOEMxMDMuMjU5IDggMTA0LjI5MSA4LjkyODE1IDEwNC4yOTEgMTAuMjM3OUMxMDQuMjkxIDExLjU0NzcgMTAzLjMyMSAxMi40MDk5IDEwMS45MzcgMTIuNDA5OUMxMDAuNTUzIDEyLjQwOTkgOTkuNjQ0NSAxMS40ODE3IDk5LjY0NDUgMTAuMjM3OU0xMDAuMTMgMTQuNzc1SDEwMy43NDRWMzAuNTY3NkgxMDAuMTNWMTQuNzc1VjE0Ljc3NVoiIGZpbGw9IiMxQjFFMkQiLz4KPHBhdGggZD0iTTEyMi45MzkgMjEuODQyNlYzMC41NjgxSDExOS4zMjRWMjIuMDY0QzExOS4zMjQgMTkuMjg0MyAxMTcuODc0IDE3LjY4NzEgMTE1LjQ1MyAxNy42ODcxQzExMi44MDkgMTcuNjg3MSAxMTAuOTY4IDE5LjYwNDYgMTEwLjk2OCAyMi4yNTcyVjMwLjU2ODFIMTA3LjM1NFYxNC43NzU1SDExMC41NzhMMTEwLjYxMSAxNi44NTMyQzExMS45NjcgMTUuMjU2IDExMy44NjkgMTQuNDU1MSAxMTYuMTI4IDE0LjQ1NTFDMTIwLjIyOCAxNC40NTUxIDEyMi45MzkgMTcuMzMzNyAxMjIuOTM5IDIxLjgzNzkiIGZpbGw9IiMxQjFFMkQiLz4KPHBhdGggZD0iTTEyNS4xMDQgMjguNjE2M0wxMjYuNzgyIDI2LjAyNUMxMjguMiAyNy4xNDE3IDEzMC4zMDIgMjcuNzgyNCAxMzIuMzk5IDI3Ljc4MjRDMTM0LjQ5NyAyNy43ODI0IDEzNS41OTUgMjcuMTQxNyAxMzUuNTk1IDI1Ljk5MjFDMTM1LjU5NSAyNC44NDI1IDEzNC41NjMgMjQuMzI4OSAxMzIuMTA5IDI0LjA3NDVDMTI3Ljk0OCAyMy42OTI5IDEyNS41ODkgMjEuOTYzOCAxMjUuNTg5IDE5LjIxNzFDMTI1LjU4OSAxNi40NzAzIDEyOC4zNjEgMTQuMzkyNiAxMzIuNDk0IDE0LjM5MjZDMTM0LjkxNSAxNC4zOTI2IDEzNy4wNDYgMTUuMDAwNCAxMzguODIgMTYuMjE1OUwxMzcuMjQxIDE4Ljc3NDJDMTM1LjgxOSAxNy44NzkgMTM0LjMwNiAxNy40MzE0IDEzMi42NjEgMTcuNDMxNEMxMzAuMzY4IDE3LjQzMTQgMTI5LjE0MSAxOC4wNzIyIDEyOS4xNDEgMTkuMjIxOEMxMjkuMTQxIDIwLjI0NDEgMTMwLjA3OCAyMC43ODYgMTMyLjM5OSAyMS4wNDUxQzEzNy4xMTIgMjEuNTU4NiAxMzkuMTc2IDIzLjA1NjkgMTM5LjE3NiAyNi4wMjk4QzEzOS4xNzYgMjkuMDAyNyAxMzYuNDMyIDMwLjk1MzIgMTMyLjMwNCAzMC45NTMyQzEyOS42MjYgMzAuOTUzMiAxMjcuMjM5IDMwLjE4NTIgMTI1LjEwOCAyOC42MjEiIGZpbGw9IiM1MTRFRDgiLz4KPHBhdGggZD0iTTE2Ni4xNzQgMTQuNzc1NEwxNjAuODgxIDMwLjU2OEgxNTcuMDQzTDE1NS41MjYgMjYuMDU5MkwxNTMuMjMzIDE5LjczMThMMTUwLjk0NiAyNi4wNTkyTDE0OS40MjkgMzAuNTY4SDE0NS41NTdMMTQwLjIzIDE0Ljc3NTRIMTQ0LjA2OUwxNDUuODc2IDIwLjU5NEwxNDcuNTg4IDI2LjQ3ODVMMTUxLjY4OCAxNC43NzU0SDE1NC43NUwxNTguODE3IDI2LjUzOThMMTYwLjU5MSAyMC41OTRMMTYyLjMzNiAxNC43NzU0SDE2Ni4xNzRaIiBmaWxsPSIjNTE0RUQ4Ii8+CjxwYXRoIGQ9Ik0xNjcuNDk4IDEwLjIzNzlDMTY3LjQ5OCA4LjkyODE1IDE2OC40NjggOCAxNjkuNzkgOEMxNzEuMTEzIDggMTcyLjE0NSA4LjkyODE1IDE3Mi4xNDUgMTAuMjM3OUMxNzIuMTQ1IDExLjU0NzcgMTcxLjE3NCAxMi40MDk5IDE2OS43OSAxMi40MDk5QzE2OC40MDYgMTIuNDA5OSAxNjcuNDk4IDExLjQ4MTcgMTY3LjQ5OCAxMC4yMzc5TTE2Ny45ODMgMTQuNzc1SDE3MS41OThWMzAuNTY3NkgxNjcuOTgzVjE0Ljc3NVYxNC43NzVaIiBmaWxsPSIjNTE0RUQ4Ii8+CjxwYXRoIGQ9Ik0xODUuNzYgMzAuMDI2MkMxODQuNTMzIDMwLjU2OCAxODMuNTAxIDMwLjc5NDIgMTgyLjE3OSAzMC43OTQyQzE3OC44ODggMzAuNzk0MiAxNzYuOTUyIDI4LjkwOTYgMTc2Ljk1MiAyNS4xMzU4VjE3LjgxNDJIMTczLjk1MVYxNC43ODAxSDE3Ni45NTJWMTAuNjE5OUwxODAuNTMzIDEwLjIzODNWMTQuNzc1NEgxODUuMTEzVjE3LjgwOTVIMTgwLjUzM1YyNS4xMzFDMTgwLjUzMyAyNi43MjgyIDE4MS4yNzUgMjcuNjIzNCAxODIuNzU5IDI3LjYyMzRDMTgzLjQwNiAyNy42MjM0IDE4NC4xNDggMjcuNDMwMiAxODQuNzYyIDI3LjE0MjhMMTg1Ljc2IDMwLjAyMTVWMzAuMDI2MloiIGZpbGw9IiM1MTRFRDgiLz4KPHBhdGggZD0iTTE4Ni42MDIgMjIuNjcwN0MxODYuNjAyIDE3Ljc4MDMgMTkwLjAyMSAxNC40MjU4IDE5NS4wODYgMTQuNDI1OEMxOTcuNDA3IDE0LjQyNTggMTk5LjQwOSAxNS4yMjY3IDIwMS4xMjIgMTYuODU2OUwxOTguOTI5IDE5LjE4OUMxOTcuOTU5IDE4LjIyNzkgMTk2LjU3NSAxNy42ODYxIDE5NS4xNTMgMTcuNjg2MUMxOTIuMjQ3IDE3LjY4NjEgMTkwLjIxNiAxOS43MzA4IDE5MC4yMTYgMjIuNjcwN0MxOTAuMjE2IDI1LjYxMDcgMTkyLjIxOCAyNy42NTU0IDE5NS4xNTMgMjcuNjU1NEMxOTYuNzAzIDI3LjY1NTQgMTk4LjEyMSAyNy4wODA2IDE5OS4wOTEgMjYuMDI1M0wyMDEuMzE3IDI4LjQyMzRDMTk5LjU0MyAzMC4xMTk1IDE5Ny41NzQgMzAuOTE1NyAxOTUuMTIgMzAuOTE1N0MxODkuOTU5IDMwLjkxNTcgMTg2LjYwMiAyNy42NTU0IDE4Ni42MDIgMjIuNjcwNyIgZmlsbD0iIzUxNEVEOCIvPgo8cGF0aCBkPSJNMjE4Ljk5NiAyMS44NDIzVjMwLjU2NzhIMjE1LjM4MVYyMi4wNjM3QzIxNS4zODEgMTkuMjg0IDIxMy45MyAxNy42ODY4IDIxMS41MSAxNy42ODY4QzIwOC44NjUgMTcuNjg2OCAyMDcuMDI1IDE5LjYwNDQgMjA3LjAyNSAyMi4yNTY5VjMwLjU2NzhIMjAzLjQxVjguMTkzMzZIMjA3LjAyNVYxNi42MzE1QzIwOC4zMTQgMTUuMTk0NSAyMTAuMDU5IDE0LjQ1OTUgMjEyLjE5IDE0LjQ1OTVDMjE2LjM1MSAxNC40NTk1IDIxOSAxNy4zNjY1IDIxOSAyMS44NDIzIiBmaWxsPSIjNTE0RUQ4Ii8+CjxwYXRoIGQ9Ik04MS4zNDM4IDIyLjg0OTlDODEuMzQzOCAxOC4yMTg2IDg0LjU5NjggMTQuNzc5MyA4OS42ODEgMTQuNzc5M0M5NC43NjUxIDE0Ljc3OTMgOTcuOTg0OSAxOC4yMTg2IDk3Ljk4NDkgMjIuODQ5OUM5Ny45ODQ5IDI3LjQ4MTMgOTQuNzMxOCAzMC45MjA2IDg5LjY4MSAzMC45MjA2Qzg0LjYzMDEgMzAuOTIwNiA4MS4zNDM4IDI3LjQ4MTMgODEuMzQzOCAyMi44NDk5Wk04OS42ODEgMjcuNzMxQzkyLjU4NjkgMjcuNzMxIDk0LjQ1MTIgMjUuNTQwMiA5NC40NTEyIDIyLjg0OTlDOTQuNDUxMiAyMC4xNTk3IDkyLjU4NjkgMTcuOTY4OSA4OS42ODEgMTcuOTY4OUM4Ni43NzUxIDE3Ljk2ODkgODQuODgyMiAyMC4xNTk3IDg0Ljg4MjIgMjIuODQ5OUM4NC44ODIyIDI1LjU0MDIgODYuNzQ2NSAyNy43MzEgODkuNjgxIDI3LjczMVYyNy43MzFaIiBmaWxsPSIjMUIxRTJEIi8+CjxwYXRoIGQ9Ik0xOC4yMDA2IDE5LjYyODNWMi4xNDI1OEM4LjU0MzQxIDIuMTQyNTggMC43MTQ4NDQgOS45NzExNSAwLjcxNDg0NCAxOS42MjgzQzAuNzE0ODQ0IDI5LjI4NTQgOC41NDM0MSAzNy4xMTQgMTguMjAwNiAzNy4xMTRWMTkuNjI4M1oiIGZpbGw9IiMxQjFFMkQiLz4KPHBhdGggZD0iTTIwLjY1MDQgMi4xNDI1OEMyMC42NTA0IDExLjE5MjYgMjcuOTg2MSAxOC41MjEyIDM3LjAzNjEgMTguNTI4M1YyLjE0MjU4SDIwLjY1MDRaIiBmaWxsPSIjNkI5MUZDIi8+CjxwYXRoIGQ9Ik0zOC41NzIzIDI5LjA1NzZDMzguNTcyMyAyNC4xNjIgMzQuNjAzNiAyMC4xOTM0IDI5LjcwOCAyMC4xOTM0QzI0LjgxMjQgMjAuMTkzNCAyMC44NDM4IDI0LjE2MiAyMC44NDM4IDI5LjA1NzZDMjAuODQzOCAzMy45NTMzIDI0LjgxMjQgMzcuOTIxOSAyOS43MDggMzcuOTIxOUMzNC42MDM2IDM3LjkyMTkgMzguNTcyMyAzMy45NTMzIDM4LjU3MjMgMjkuMDU3NloiIGZpbGw9IiM1MTRFRDgiLz4KPC9zdmc+Cg=="
+                        width="220" height="40" /></div> 
+                    <div class="Footer_footer_social__PQpQG"></div>
+                    <p class="Footer_footer_text__2VHkW">Follow us on</p>
+                    <div class="Footer_footer_social_icons__2EZV5"><a href="https://t.me/coinswitch_kuber"
+                        class="Footer_footer_social_link__kndE9"><img alt="telegram"
+                          src="data:image/png;base64,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"
+                          width="40" height="40" /></a><a href="https://www.instagram.com/coinswitch_co/"
+                        class="Footer_footer_social_link__kndE9"><img alt="instagram"
+                          src="data:image/png;base64,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"
+                          width="40" height="40" /></a><a href="https://www.facebook.com/coinswitch"
+                        class="Footer_footer_social_link__kndE9"><img alt="facebook"
+                          src="data:image/png;base64,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"
+                          width="40" height="40" /></a><a href="https://twitter.com/CoinSwitch"
+                        class="Footer_footer_social_link__kndE9"><img alt="twitter"
+                          src="data:image/png;base64,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"
+                          width="40" height="40" /></a><a href="https://www.youtube.com/c/coinswitchkuber"
+                        class="Footer_footer_social_link__kndE9"><img alt="youtube"
+                          src="data:image/png;base64,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"
+                          width="40" height="40" /></a><a href="https://www.linkedin.com/company/coinswitch"
+                        class="Footer_footer_social_link__kndE9"><img alt="linkedin"
+                          src="data:image/png;base64,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"
+                          width="40" height="40" /></a></div> 
+                   </div>
+                  <div class="Footer_footer_topContent_half__mWNn6">
+                    <p class="Footer_footer_text__2VHkW">We are available on <br />most familiar channels
+                    </p><a
+                       href="mailto:support@coinswitch.co" class="Footer_footer_contact__U6jP7">
+                      <p class="Footer_footer_text__2VHkW Footer_footer_text_grey__ZM_wp Footer_footer_contact__U6jP7">
+                        Email Us</p>  
+                      
+                     <p class="Footer_footer_text__2VHkW">support@coinswitch.co</p>
+                    </a><a href="https://cs-india-support.coinswitch.co/hc/en-us/requests/new"
+                      class="Footer_footer_contact__U6jP7">
+                      <p class="Footer_footer_text__2VHkW Footer_footer_text_grey__ZM_wp">Raise a Ticket</p>
+                      <p class="Footer_footer_text__2VHkW">Click here</p>
+                    </a>
+                  </div> 
+                </div> 
+             
+                <div class="Footer_footer_links__ZZ_Pj Footer_footer_links_desktop__Q56BE">
+                  <div class="Footer_footer_links_half__AE0cz">
+                    <ul class="Footer_footer_links_list__EPKXS">
+                      <li class="Footer_footer_links_list_title___tnJw">Products</li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="/crypto-index/">Crypto Rupee Index
+                          (CRE8)</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="/crypto-sip/">Systematic Investment
+                          Plan</a></li> 
+                   </ul>
+                    <ul class="Footer_footer_links_list__EPKXS">
+                      <li class="Footer_footer_links_list_title___tnJw">Buy Crypto</li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/coins/buy-bitcoin-in-india/">Buy Bitcoin</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/coins/buy-ethereum-in-india/">Buy Ethereum</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/coins/buy-dogecoin-in-india/">Buy Doge coin</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/coins/buy-shiba-inu-in-india/">Buy Shiba Inu</a></li>
+                    </ul>
+                    <ul class="Footer_footer_links_list__EPKXS">
+                      <li class="Footer_footer_links_list_title___tnJw">Policies</li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/terms-of-use/">T&amp;C</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="https://coinswitch.co/aml-policy/">AML
+                          Policy</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/privacy-policy/">Privacy Policy</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/trading-policy/">Trading Policy</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="/law-enforcement-resource">Law
+                          Enforcement Resource</a></li>
+                    </ul>
+                  </div>
+                 <div class="Footer_footer_links_half__AE0cz">
+                    <ul class="Footer_footer_links_list__EPKXS">
+                      <li class="Footer_footer_links_list_title___tnJw">Company</li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="/about-us/">About Us</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://recruiterflow.com/coinswitch/jobs">Careers</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="/press/">Press</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="Footer_footer_links__ZZ_Pj Footer_footer_links_mob__BuqyC">
+                  <div class="Footer_footer_links_mob_section__2tAZL">
+                    <ul class="Footer_footer_links_list__EPKXS">
+                      <li class="Footer_footer_links_list_title___tnJw">Products</li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="/crypto-index/">Crypto Rupee Index
+                          (CRE8)</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="/crypto-sip/">Systematic Investment
+                          Plan</a></li>
+                    </ul> 
+                   <ul class="Footer_footer_links_list__EPKXS">
+                      <li class="Footer_footer_links_list_title___tnJw">Buy Crypto</li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/coins/buy-bitcoin-in-india/">Buy Bitcoin</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/coins/buy-ethereum-in-india/">Buy Ethereum</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/coins/buy-dogecoin-in-india/">Buy Doge coin</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/coins/buy-shiba-inu-in-india/">Buy Shiba Inu</a></li>
+                    </ul>
+                  </div>
+                <div class="Footer_footer_links_mob_section__2tAZL">
+                    <ul class="Footer_footer_links_list__EPKXS">
+                      <li class="Footer_footer_links_list_title___tnJw">Policies</li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/terms-of-use/">T&amp;C</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="https://coinswitch.co/aml-policy/">AML
+                          Policy</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/privacy-policy/">Privacy Policy</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://coinswitch.co/trading-policy/">Trading Policy</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="/law-enforcement-resource">Law
+                          Enforcement Resource</a></li>
+                    </ul>
+                    <ul class="Footer_footer_links_list__EPKXS">
+                      <li class="Footer_footer_links_list_title___tnJw">Company</li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="/about-us/">About Us</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a
+                          href="https://recruiterflow.com/coinswitch/jobs">Careers</a></li>
+                      <li class="Footer_footer_links_list_item__m8_l9"><a href="/press/">Press</a></li>
+                    </ul>
+                  </div>
+                </div> 
+                 <div class="Footer_footer_foot__N75J8">
+                  <p class="Footer_footer_foot_text__RBmUl">© 2022 CoinSwitch. All rights reserved</p>
+                  <div class="Footer_footer_foot_mobWrapper__s_7W9">
+                    <p class="Footer_footer_foot_text__RBmUl Footer_footer_foot_text_noMob__ufKEA">•</p>
+                    <p class="Footer_footer_foot_text__RBmUl">
+                      <a href="https://coinswitch.co/kuber-terms/">Terms &amp;
+                        Conditions</a></p>
+                    <p class="Footer_footer_foot_text__RBmUl Footer_footer_foot_text_noMob__ufKEA">•</p>
+                    <p class="Footer_footer_foot_text__RBmUl">
+                      <a href="https://coinswitch.co/privacy-policy/">Privacy
+                        Policy</a></p>
+                    <p class="Footer_footer_foot_text__RBmUl Footer_footer_foot_text_noMob__ufKEA">•</p>
+                    <p class="Footer_footer_foot_text__RBmUl">
+                      <a href="https://coinswitch.co/trading-policy/">Trading
+                        Policy</a></p>
+                    <p class="Footer_footer_foot_text__RBmUl">
+                      <a href="/law-enforcement-resource">Law Enforcement
+                        Resource</a></p>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div id="gatsby-announcer"
+      style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0"
+      aria-live="assertive" aria-atomic="true"></div>
+  </div> 
+
+ 
+  <script
+    id="gatsby-script-loader">/*<![CDATA[*/window.pagePath = "/"; window.___webpackCompilationHash = "7ed2a1491206375f5599";/*]]>*/</script>
+  <script
+    id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping = { "polyfill": ["/polyfill-85c32fc01ddb0673329d.js"], "app": ["/app-b2221491dcb48620576f.js"], "gatsby-plugin-image": ["/gatsby-plugin-image-a41351f92fed3da56e8f.js"], "component---src-pages-404-js": ["/component---src-pages-404-js-f6e6edb5e705877ae1cc.js"], "component---src-pages-about-us-js": ["/component---src-pages-about-us-js-b46b6e84027d2029c16e.js"], "component---src-pages-about-us-old-js": ["/component---src-pages-about-us-old-js-c8d51c1e5b2d5e724ea8.js"], "component---src-pages-affiliate-js": ["/component---src-pages-affiliate-js-a04c0eed34c7c414d4a5.js"], "component---src-pages-aml-policy-old-js": ["/component---src-pages-aml-policy-old-js-43dd54d54bf8bc31180a.js"], "component---src-pages-blog-js": ["/component---src-pages-blog-js-49e55f0f15b903e78477.js"], "component---src-pages-bug-bounty-form-js": ["/component---src-pages-bug-bounty-form-js-25654525b59ade8885b0.js"], "component---src-pages-bug-bounty-index-js": ["/component---src-pages-bug-bounty-index-js-7bcd74bedbd0c2f0451c.js"], "component---src-pages-bug-bounty-terms-and-conditions-js": ["/component---src-pages-bug-bounty-terms-and-conditions-js-c6532317a507cb3e0d3c.js"], "component---src-pages-coins-js": ["/component---src-pages-coins-js-e1dbee5839c495870f84.js"], "component---src-pages-community-js": ["/component---src-pages-community-js-b5957aafd1092c1abb02.js"], "component---src-pages-crypto-index-admin-dashboard-js": ["/component---src-pages-crypto-index-admin-dashboard-js-2911c3a9030b8c864484.js"], "component---src-pages-crypto-index-index-js": ["/component---src-pages-crypto-index-index-js-9d24e531d92e6f7cbc50.js"], "component---src-pages-crypto-sip-js": ["/component---src-pages-crypto-sip-js-e63ab3573a24965deef4.js"], "component---src-pages-faq-js": ["/component---src-pages-faq-js-dff32294e9347be87dfb.js"], "component---src-pages-home-2-js": ["/component---src-pages-home-2-js-8256cf7682b1ce500d64.js"], "component---src-pages-in-giftcard-faq-js": ["/component---src-pages-in-giftcard-faq-js-b7cee1c35df23922b2af.js"], "component---src-pages-in-giftcard-terms-js": ["/component---src-pages-in-giftcard-terms-js-f87ae4c6c2ec7bdf3959.js"], "component---src-pages-in-kuber-register-terms-of-use-js": ["/component---src-pages-in-kuber-register-terms-of-use-js-6be4d1b5ad5cc8aa41fc.js"], "component---src-pages-in-kuber-vault-terms-js": ["/component---src-pages-in-kuber-vault-terms-js-185fbf2255003baeef21.js"], "component---src-pages-in-redeem-voucher-terms-js": ["/component---src-pages-in-redeem-voucher-terms-js-7d42e879340ce8984e84.js"], "component---src-pages-in-refer-js": ["/component---src-pages-in-refer-js-142bedae0e5a12f69c32.js"], "component---src-pages-in-referral-leaderboard-terms-js": ["/component---src-pages-in-referral-leaderboard-terms-js-b8235a3554ed06c9f06e.js"], "component---src-pages-in-register-js": ["/component---src-pages-in-register-js-303e50c6f067bf296fca.js"], "component---src-pages-index-js": ["/component---src-pages-index-js-2f76d081042d2c89a230.js"], "component---src-pages-invoice-js": ["/component---src-pages-invoice-js-13c4d9b68ef63e0f3f0b.js"], "component---src-pages-kuber-terms-referral-js": ["/component---src-pages-kuber-terms-referral-js-9b305290e781a28f05b4.js"], "component---src-pages-leaderboard-js": ["/component---src-pages-leaderboard-js-b3bb3690f525560bcfbc.js"], "component---src-pages-opera-campaign-js": ["/component---src-pages-opera-campaign-js-96b2b6991e972e8a619d.js"], "component---src-pages-payment-redirect-js": ["/component---src-pages-payment-redirect-js-58374cba11d1d1030a17.js"], "component---src-pages-press-js": ["/component---src-pages-press-js-4bf5f4bb588a5f720258.js"], "component---src-pages-rd-js": ["/component---src-pages-rd-js-f981eeee432f913987e1.js"], "component---src-pages-year-end-wrap-js": ["/component---src-pages-year-end-wrap-js-3fa8e81ac4ef7de6cae5.js"], "component---src-templates-blog-js": ["/component---src-templates-blog-js-872772e3e6e28e22f36a.js"], "component---src-templates-buy-coin-js": ["/component---src-templates-buy-coin-js-3071f2edf3929f9bcaed.js"], "component---src-templates-category-js": ["/component---src-templates-category-js-d525071f887ea4c4be0c.js"], "component---src-templates-coin-inr-js": ["/component---src-templates-coin-inr-js-5d6c1262114f734c29ed.js"], "component---src-templates-coins-js": ["/component---src-templates-coins-js-81bcfec306084e2a1bb0.js"], "component---src-templates-earn-js": ["/component---src-templates-earn-js-08f03655245da8dee2fa.js"], "component---src-templates-multi-lang-terms-js": ["/component---src-templates-multi-lang-terms-js-21952489174e7521b96f.js"], "component---src-templates-press-release-js": ["/component---src-templates-press-release-js-46670fb5324fed5f1ca9.js"] };/*]]>*/</script>
+  <script src="/polyfill-85c32fc01ddb0673329d.js" nomodule=""></script>
+  <script src="/app-b2221491dcb48620576f.js" async=""></script>
+  <script src="/dc6a8720040df98778fe970bf6c000a41750d3ae-c034995c88c0ea781e96.js" async=""></script>
+  <script src="/d64684d8-9631adef20f6875c6f7f.js" async=""></script>
+  <script src="/252f366e-aadc456f45d17f4ba4df.js" async=""></script>
+  <script src="/framework-e7ed22d083d70cff1be5.js" async=""></script>
+  <script src="/webpack-runtime-e24829696001179d90f7.js" async=""></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+    rel="stylesheet" />
+  <script async="" defer="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous">
+  </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vb26e4fa9e5134444860be286fd8771851679335129114"
+    integrity="sha512-M3hN/6cva/SjwrOtyXeUa5IuCT0sedyfT+jK/OV+s+D0RnzrTfwjwJHhd+wYfMm9HJSrZ1IKksOdddLuN6KOzw=="
+    data-cf-beacon='{"rayId":"7ad5019848c285cc","token":"8792674db98348c3a0cab322e01bbe4e","version":"2023.3.0","si":100}'
+    crossorigin="anonymous">
+  </script>
+
+
+
+
+    
+</body>
+
+</html>
